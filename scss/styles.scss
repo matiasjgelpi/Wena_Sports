@@ -1,0 +1,20 @@
+@import "fonts";
+@import "colors";
+
+body {
+    background-color: $colorPrincipalNegro;
+    h1 {
+        color: $colorPrincipalRojo;
+        font-family: $font-principal;
+    }
+
+    h3 {
+        color: $colorSecundarioVerde;
+        font-family: $font-subtitulos;
+    }
+
+    p {
+        color: $colorSecundarioAmarillo;
+        font-family: $font-textos;
+    }
+}
