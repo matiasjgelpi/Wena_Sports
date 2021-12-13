@@ -1,0 +1,53 @@
+#navbar {
+    background-color: $colorPrincipalNegro;
+    font-family: $font-subtitulos;
+    height: 110px;
+
+    #logo-navbar {
+        margin: 30px 1100px 25px 5%;
+        padding: 0;
+        width: 110px;
+        height: 46px;
+        left: 80px;
+        top: 79px;
+        background-image: url(./components/navbar/logo-navbar.png);
+    }
+
+    #buscar {
+        width: 14px;
+        height: 14px;
+        top: 8px;
+        bottom: 16px;
+        background-image: url(./components/navbar/lupa.png);
+        margin-right: 5%;
+    }
+
+    a {
+        color: $colorSecundarioBlanco;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        text-orientation: initial;
+
+     
+    }
+
+    .link {
+        border: 3px solid $colorPrincipalNegro;
+    }
+
+    .link:focus {
+        border: 3px solid $colorPrincipalRojo;
+        // border-block: ;
+        -webkit-transform: skew(-10deg);
+        -moz-transform: skew(-10deg);
+        -ms-transform: skew(-10deg);
+        -o-transform: skew(-10deg);
+        transform: skew(-10deg);
+       
+        
+    }
+
+}
