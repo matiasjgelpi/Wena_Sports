@@ -1,0 +1,84 @@
+.footer-container {
+  font-family: $font-textos;
+  display: flex;
+  width: 1440px;
+  height: 280px;
+  left: 0px;
+  top: 0px;
+  background: $colorPrincipalNegro;
+  padding: 20px 120px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+
+  .description-container {
+    width: 35%;
+    margin: 10px 30px 0 0;
+
+    p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 25px;
+      color: $colorSecundarioBlanco;
+      margin-top: 15px;
+    }
+  }
+  .newsletter-container {
+    margin: 10px 0 0 30px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      font-family: lemonMilk-medium;
+      font-weight: 500;
+      font-size: 22px !important;
+      line-height: 30px;
+      color: $colorSecundarioBlanco;
+    }
+    span {
+      font-family: lemonMilk-light;
+      color: $colorPrincipalRojo;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    input[type="email"] {
+      height: 30px;
+      width: 370px;
+      left: 730px;
+      top: 2960px;
+      border-radius: 0px;
+      background: $colorSecundarioBlanco;
+      opacity: 0.1;
+      margin: 16px 0;
+      transform: skew(-25deg);
+      border: none;
+      outline: none;
+      color: $colorSecundarioBlanco !important;
+      ::placeholder {
+        color: $colorSecundarioBlanco !important;
+      }
+    }
+
+    button {
+      width: 240px;
+      height: 50px;
+      left: 730px;
+      top: 3010px;
+      text-align: initial;
+      background: $colorPrincipalNegro;
+      border: 3px solid $colorSecundarioVerde;
+      border-radius: 10px;
+      font-family: poppins-light;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: $colorSecundarioVerde;
+      padding-left: 15px;
+    }
+  }
+}
