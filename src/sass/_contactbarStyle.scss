@@ -1,0 +1,54 @@
+#contact-bar {
+    background-color: $colorPrincipalNegro;
+    opacity: 0.95;
+    font-family: $font-textos;
+    height: 40px;
+    padding-left: 60%;
+    padding-top: 4px;
+    padding-right: 5%;
+
+
+
+
+    #facebook {
+        width: 8.5px;
+        height: 15px;
+        margin-right: 8px;
+        background-image: url(./components/contactbar/facebook.png);
+    }
+
+    #instagram {
+        width: 14.93px;
+        height: 14.93px;
+        margin-right: 8px;
+        background-image: url(./components/contactbar/instagram.png);
+
+    }
+
+    #whatsapp {
+        width: 15px;
+        height: 15.07px;
+        margin-right: 8px;
+        background-image: url(./components/contactbar/whatsapp.png);
+
+    }
+
+    #gmail {
+            width: 21px;
+            height: 15px;
+            margin-right: 8px;
+            background-image: url(./components/contactbar/gmail.png);
+    
+        }
+    
+
+    a {
+        color: $colorSecundarioBlanco;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+
+    }
+}

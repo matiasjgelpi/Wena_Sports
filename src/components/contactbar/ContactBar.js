@@ -3,8 +3,7 @@ import { Nav } from "react-bootstrap";
 export const ContactBar = () => {
   return (
     <Nav className="justify-content-around" id="contact-bar">
-      <Nav.Item>
-        
+      <Nav.Item>  
         <Nav.Link><img src="./facebook.png" id="facebook" alt="" />wenasports</Nav.Link>
       </Nav.Item>
       <Nav.Item>
