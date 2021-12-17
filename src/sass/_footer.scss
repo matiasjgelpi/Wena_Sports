@@ -57,9 +57,9 @@
       transform: skew(-25deg);
       border: none;
       outline: none;
-      color: $colorSecundarioBlanco !important;
-      ::placeholder {
-        color: $colorSecundarioBlanco !important;
+
+      &:focus {
+        opacity: 1;
       }
     }
 
