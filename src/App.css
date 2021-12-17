@@ -152,3 +152,33 @@
       line-height: 24px;
       color: #adf0d1;
       padding-left: 15px; }
+
+.view-container .view-section {
+  width: 229px;
+  height: 65px;
+  left: 79.8px;
+  top: 207px;
+  font-family: LEMON MILK;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px; }
+
+.view-container .view-section {
+  width: 28px;
+  height: 10px;
+  left: 80px;
+  top: 360px;
+  background: #ffff33; }
+
+.view-container h3 {
+  position: absolute;
+  width: 500px;
+  height: 38px;
+  left: 80px;
+  top: 389px;
+  font-family: LEMON MILK;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px; }
