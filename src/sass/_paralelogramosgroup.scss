@@ -6,64 +6,64 @@
     bottom: 200px;
 }
 
-#container-rectangulo {
-    position: relative;
-    max-width: 1320px;
-    margin: 0;
-}
+// #container-rectangulo {
+//     position: relative;
+//     max-width: 1320px;
+//     margin: 0;
+// }
 
-#rectangulo-rojo {
-    position: absolute;
-    width: 100%;
-    margin-bottom: 0px;
-    margin-top: -174px;
-    padding: 0;
-    height: 174px;
-    background-color: $colorPrincipalRojo;
-    opacity: 0.4;
-}
+// #rectangulo-rojo {
+//     position: absolute;
+//     width: 100%;
+//     margin-bottom: 0px;
+//     margin-top: -174px;
+//     padding: 0;
+//     height: 174px;
+//     background-color: $colorPrincipalRojo;
+//     opacity: 0.4;
+// }
 
-#container-w {
-    position: relative;
-    opacity: 0.5;
-}
+// #container-w {
+//     position: relative;
+//     opacity: 0.5;
+// }
 
-#w {
-    width: 882px;
-    height: 665px;
-    background: url(./components/paralelogramosgroup/w.png);
-    background-repeat: no-repeat;
-    margin-top: -695px;
-    margin-left: 86px;
-}
+// #w {
+//     width: 882px;
+//     height: 665px;
+//     background: url(./components/paralelogramosgroup/w.png);
+//     background-repeat: no-repeat;
+//     margin-top: -695px;
+//     margin-left: 86px;
+// }
 
-#container-subtitulo {
-    position: relative;
-    display: block;
-    margin-top: -410px;
-    margin-left: 40px;    
+// #container-subtitulo {
+//     position: relative;
+//     display: block;
+//     margin-top: -410px;
+//     margin-left: 40px;    
      
 
    
 
-    .subtitulo {
-        transform: skew(-20deg);
-        background-color: rgba(red($colorPrincipalNegro), green($colorPrincipalNegro), blue($colorPrincipalNegro), 0.4);
+//     .subtitulo {
+//         transform: skew(-20deg);
+//         background-color: rgba(red($colorPrincipalNegro), green($colorPrincipalNegro), blue($colorPrincipalNegro), 0.4);
         
      
 
-        p {
-            font-family: $font-principal;
-            color: $colorSecundarioBlanco;
-            font-weight: 500;
-            font-size: 48px;
-            transform: skew(20deg);
-            margin-bottom: 5px;
-            height: 60px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            opacity: 1; 
-        }
-    }
-}
+//         p {
+//             font-family: $font-principal;
+//             color: $colorSecundarioBlanco;
+//             font-weight: 500;
+//             font-size: 48px;
+//             transform: skew(20deg);
+//             margin-bottom: 5px;
+//             height: 60px;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             opacity: 1; 
+//         }
+//     }
+// }

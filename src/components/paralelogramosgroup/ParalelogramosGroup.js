@@ -4,9 +4,6 @@ import { Paralelogramos } from "../paralelogramos/Paralelogramos";
 export const ParalelogramosGroup = () => {
   return (
     <>
-      <Row id="container-rectangulo">
-        <div id="rectangulo-rojo" />
-      </Row>
       <Row
         id="paralelogramos-group"
         lg="5"
@@ -40,18 +37,6 @@ export const ParalelogramosGroup = () => {
             color_cuadro={"#ff3d2d"}
           />
         </Col>
-      </Row>
-      <Row id="container-w">
-        <div id="w"></div>
-      </Row>
-      <Row id="container-subtitulo">
-        <div className="subtitulo" style={{ width: "543px"}}>
-          <p >PASIÓN, RESPETO Y </p>
-          
-        </div>
-        <div className="subtitulo"  style={{ width: "425px"}}>
-        <p>COMPROMISO</p>
-        </div>
       </Row>
     </>
   );
