@@ -18,12 +18,11 @@ export const ViewContainer = () => {
       <Heading level="1" className="view-section">
         {cat === "info" ? "INFORMACIÓN ÚTIL" : cat.toUpperCase()}
       </Heading>
-      <Span className="view-section"></Span>
-      <Container>
-        {(cat === "info" && <Info></Info>) ||
-          (cat === "eventos" && <Eventos></Eventos>) ||
-          (cat === "nosotros" && <Nosotros></Nosotros>)}
-      </Container>
+      <Span className="view-span" />
+
+      {(cat === "info" && <Info />) ||
+        (cat === "eventos" && <Eventos />) ||
+        (cat === "nosotros" && <Nosotros />)}
     </Container>
   );
 };
