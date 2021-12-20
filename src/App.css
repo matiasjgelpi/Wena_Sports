@@ -13,9 +13,10 @@
 #navbar {
   background-color: #222222;
   font-family: lemonMilk-light;
-  height: 110px; }
+  height: 110px;
+  margin-top: 40px; }
   #navbar #logo-navbar {
-    margin: 30px 1100px 25px 5%;
+    margin: 30px 1100px 25px 8%;
     padding: 0;
     width: 110px;
     height: 46px;
@@ -28,7 +29,7 @@
     top: 8px;
     bottom: 16px;
     background-image: url(./components/navbar/lupa.png);
-    margin-right: 5%; }
+    margin: 0 5% 0 3%; }
   #navbar a {
     color: #f2f2f2;
     font-style: normal;
@@ -38,14 +39,20 @@
     line-height: 19px;
     text-orientation: initial; }
   #navbar .link {
-    border: 3px solid #222222; }
+    border: 3px solid #222222;
+    padding: 4px 8px 4px 8px;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg); }
+    #navbar .link .link-text {
+      margin-bottom: 0;
+      display: flex;
+      justify-content: center;
+      transform: skew(15deg); }
   #navbar .link:focus {
-    border: 3px solid #ff3d2d;
-    -webkit-transform: skew(-13deg);
-    -moz-transform: skew(-13deg);
-    -ms-transform: skew(-13deg);
-    -o-transform: skew(-13deg);
-    transform: skew(-13deg); }
+    border: 3px solid #ff3d2d; }
 
 #contact-bar {
   background-color: #222222;
@@ -54,7 +61,7 @@
   height: 40px;
   padding-left: 60%;
   padding-top: 4px;
-  padding-right: 5%; }
+  padding-right: 7%; }
   #contact-bar #facebook {
     width: 8.5px;
     height: 15px;
@@ -82,3 +89,107 @@
     font-size: 12px;
     line-height: 18px;
     text-align: center; }
+
+#carousel {
+  margin-top: 0px;
+  position: relative;
+  left: auto;
+  padding: 0; }
+
+#paralelogramo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#nombre-dato {
+  width: 138px;
+  height: 61.63px;
+  background-color: #222222;
+  transform: skew(-25deg);
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-right: 30px; }
+  #nombre-dato p {
+    transform: skew(25deg);
+    font-family: lemonMilk-light;
+    color: #f2f2f2;
+    font-weight: 300;
+    font-size: 11px;
+    margin-bottom: 0px;
+    margin-left: 18px; }
+
+#dato {
+  width: 110px;
+  height: 49px;
+  font-family: lemonMilk-medium;
+  color: #222222;
+  transform: skew(-25deg);
+  position: relative;
+  left: 70px;
+  bottom: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #dato p {
+    transform: skew(25deg);
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0px; }
+
+#paralelogramos-group {
+  position: relative;
+  margin-left: 300px;
+  margin-right: 3.5%;
+  margin-top: 100px;
+  bottom: 200px; }
+
+#container-rectangulo {
+  position: relative;
+  max-width: 1320px;
+  margin: 0; }
+
+#rectangulo-rojo {
+  position: absolute;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: -174px;
+  padding: 0;
+  height: 174px;
+  background-color: #ff3d2d;
+  opacity: 0.4; }
+
+#container-w {
+  position: relative;
+  opacity: 0.5; }
+
+#w {
+  width: 882px;
+  height: 665px;
+  background: url(./components/paralelogramosgroup/w.png);
+  background-repeat: no-repeat;
+  margin-top: -695px;
+  margin-left: 86px; }
+
+#container-subtitulo {
+  position: relative;
+  display: block;
+  margin-top: -410px;
+  margin-left: 40px; }
+  #container-subtitulo .subtitulo {
+    transform: skew(-20deg);
+    background-color: rgba(34, 34, 34, 0.4); }
+    #container-subtitulo .subtitulo p {
+      font-family: lemonMilk-medium;
+      color: #f2f2f2;
+      font-weight: 500;
+      font-size: 48px;
+      transform: skew(20deg);
+      margin-bottom: 5px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 1; }

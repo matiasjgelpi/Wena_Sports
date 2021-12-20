@@ -1,0 +1,50 @@
+#paralelogramo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nombre-dato {
+  width: 138px;
+  height: 61.63px;
+  background-color: $colorPrincipalNegro;
+  transform: skew(-25deg);
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-right: 30px;
+
+  p {
+    transform: skew(25deg);
+    font-family: $font-subtitulos;
+    color: $colorSecundarioBlanco;
+    font-weight: 300;
+    font-size: 11px;
+    margin-bottom: 0px;
+    margin-left: 18px;
+  }
+}
+
+#dato {
+  width: 110px;
+  height: 49px;
+  font-family: $font-principal;
+  color: $colorPrincipalNegro;
+  transform: skew(-25deg);
+  position: relative;
+  left: 70px;
+  bottom: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    transform: skew(25deg);
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+}
+
