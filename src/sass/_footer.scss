@@ -1,11 +1,9 @@
 .footer-container {
-  position: absolute;
   font-family: $font-textos;
   display: flex;
   width: 1440px;
   height: 280px;
-  left: 0px;
-  top: 973px;
+
   background: $colorPrincipalNegro;
   padding: 20px 120px;
   align-items: center;
@@ -80,6 +78,7 @@
       line-height: 24px;
       color: $colorSecundarioVerde;
       padding-left: 15px;
+      transform: initial;
     }
   }
 }

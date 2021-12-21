@@ -1,0 +1,30 @@
+.section-container {
+  background-repeat: no-repeat;
+  background-color: $colorPrincipalBlanco;
+  padding-bottom: 80px;
+
+  .section-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 69px;
+    .section-title {
+      height: 65px;
+      left: 79.8px;
+      top: 207px;
+      font-family: lemonMilk-medium;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 65px;
+    }
+    .section-span {
+      margin-top: 100px;
+      width: 28px;
+      height: 10px;
+      left: 80px;
+      top: 360px;
+      background: $colorSecundarioAmarillo;
+      transform: skew(-25deg);
+    }
+  }
+}
