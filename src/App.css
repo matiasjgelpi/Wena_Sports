@@ -96,6 +96,16 @@
   left: auto;
   padding: 0; }
 
+.carousel-control-prev-icon {
+  background-image: url(./components/carouselportada/prev.png);
+  width: 17px;
+  height: 22px; }
+
+.carousel-control-next-icon {
+  background-image: url(./components/carouselportada/next.png);
+  width: 17px;
+  height: 22px; }
+
 #paralelogramo {
   display: flex;
   justify-content: center;
@@ -264,3 +274,51 @@
       line-height: 24px;
       color: #adf0d1;
       padding-left: 15px; }
+
+.home {
+  margin: 135px 0px 0px 0px;
+  padding: 0px 340px 115px 80px;
+  background-color: #E5E5E5; }
+  .home .rectangulo-amarillo {
+    width: 28px;
+    height: 10px;
+    background-color: #ffff33;
+    transform: skew(-20deg);
+    margin-bottom: 29px; }
+  .home #col1 {
+    padding-top: 80px; }
+  .home #col2 {
+    padding-top: 128px;
+    padding-left: 75px; }
+  .home h3 {
+    font-family: lemonMilk-medium;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    width: 500px; }
+  .home h4 {
+    font-family: lemonMilk-light;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ff3d2d;
+    width: 340px; }
+  .home p {
+    font-family: poppins-light;
+    font-weight: 500;
+    font-size: 16px;
+    width: 500px; }
+  .home button {
+    width: 240px;
+    height: 50px;
+    text-align: initial;
+    background: #222222;
+    border: 3px solid #f2f2f2;
+    border-radius: 10px;
+    font-family: poppins-light;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f2f2f2;
+    padding-left: 15px;
+    margin-top: 32px; }
