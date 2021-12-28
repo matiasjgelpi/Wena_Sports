@@ -277,7 +277,7 @@
 
 .home {
   margin: 135px 0px 0px 0px;
-  padding: 0px 340px 115px 80px;
+  padding: 0px 22% 115px 70px;
   background-color: #E5E5E5; }
   .home .rectangulo-amarillo {
     width: 28px;
@@ -322,3 +322,73 @@
     color: #f2f2f2;
     padding-left: 15px;
     margin-top: 32px; }
+
+.cobertura {
+  background-color: rgba(255, 61, 45, 0.12);
+  padding: 30px 5% 28px 70px;
+  margin: 0;
+  height: 440px; }
+  .cobertura .iconos {
+    height: 30px;
+    margin-bottom: 20px; }
+  .cobertura .medios-cobertura-container {
+    margin-top: 42px;
+    width: 200px; }
+  .cobertura .texto-iconos {
+    font-family: poppins-light;
+    font-size: 16px;
+    color: #222222;
+    line-height: 24px;
+    display: inline;
+    font-weight: 500; }
+  .cobertura .titulo-iconos {
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 5px;
+    width: 250px; }
+  .cobertura #antena {
+    width: 35px;
+    background-image: url(./components/cobertura/antena.png); }
+  .cobertura #instagram {
+    width: 30px;
+    background-image: url(./components/cobertura/instagram.png); }
+  .cobertura #tiktok {
+    width: 26px;
+    background-image: url(./components/cobertura/tiktok.png); }
+  .cobertura #facebook {
+    width: 17px;
+    background-image: url(./components/cobertura/facebook.png); }
+  .cobertura #twitch {
+    width: 29px;
+    background-image: url(./components/cobertura/twitch.png); }
+
+.seccion4 {
+  padding: 118px 11% 134px 70px;
+  margin: 0;
+  height: 740px; }
+
+.carousel-item img {
+  border-radius: 10px; }
+
+#col-carousel {
+  padding-top: 50px; }
+
+#direccion {
+  font-size: 14px; }
+
+.prev-icon {
+  background-image: url(./components/homeSeccion4/prev.png);
+  width: 12px;
+  height: 17px;
+  background-repeat: no-repeat; }
+
+.next-icon {
+  background-image: url(./components/homeSeccion4/next.png);
+  width: 12px;
+  height: 17px;
+  background-repeat: no-repeat; }
+
+.carousel-s4 {
+  margin-top: 50px;
+  margin-bottom: 20px; }
