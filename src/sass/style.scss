@@ -1,7 +1,7 @@
 @import "fonts";
 @import "colors";
-@import "navbarStyle";
-@import "contactbarStyle";
+@import "navbar";
+@import "contactbar";
 @import "carousel";
 @import "paralelogramos";
 @import "paralelogramosgroup";
@@ -11,5 +11,9 @@
 @import "footer";
 @import "home";
 @import "cobertura";
-@import "homes4"
+@import "homes4";
+
+body {
+    background-color: $colorSecundarioBlanco;
+}
 

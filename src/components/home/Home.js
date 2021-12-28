@@ -1,7 +1,8 @@
 import { Row, Col } from "react-bootstrap";
 import { BiChevronRight } from "react-icons/bi";
 import { Cobertura } from "../cobertura/Cobertura";
-import { HomeSeccion4, Home_seccion4 } from "../homeSeccion4/HomeSeccion4";
+import { HomeSeccion4} from "../homeSeccion4/HomeSeccion4";
+import {Footer} from "../footer/Footer"
 
 export const Home = () => {
   return (
@@ -44,6 +45,7 @@ export const Home = () => {
       </Row>
       <Cobertura></Cobertura>
       <HomeSeccion4></HomeSeccion4>
+      <Footer></Footer>
     </>
   );
 };

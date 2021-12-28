@@ -5,11 +5,11 @@ import { NavLink } from "react-router-dom";
 export const NavBar = () => {
   return (
     <>
-      <Navbar id="navbar" fixed="top" expand="lg">
-        <Container fluid>
+      <Navbar id="navbar" className="container" fixed="top">
+        <Container>
           {/* <Navbar.Collapse> */}
 
-          <Navbar.Brand className="">
+          <Navbar.Brand className="brand">
             <NavLink to="/">
               <img
                 alt=""
