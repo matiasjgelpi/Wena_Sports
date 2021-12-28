@@ -14,6 +14,7 @@ import { BiChevronRight } from "react-icons/bi";
 
 const Info = () => {
   const [visible, setVisible] = useState("rugby");
+  console.log(visible);
 
   return (
     <Container className="info-container">
@@ -52,7 +53,7 @@ const Info = () => {
         <Text>
           PODES DESCARGAR EL REGLAMENTO PARA LOS TORNEOS DE wena sports
         </Text>
-        <ul>
+        {/* <ul>
           <li onClick={() => setVisible("rugby")}>
             <a href="#rugby" id="rugby">
               Rugby X
@@ -93,7 +94,18 @@ const Info = () => {
               Tenis
             </a>
           </li>
-        </ul>
+        </ul> */}
+
+        <select onChange={(event) => setVisible(event.target.value)}>
+          <option value="rugby">Rugby X</option>
+          <option value="hockey">Hockey 5</option>
+          <option value="beach">Beach Volley</option>
+          <option value="fifa">Fifa 22</option>
+          <option value="tenis">Tenis</option>
+          <option value="futbol">Fútbol 5</option>
+          <option value="padel">Padel</option>
+          <option value="basket">Basketball</option>
+        </select>
         <button>
           {(visible === "rugby" && (
             <a href={rugby} download={`reglamento${visible}`}>
@@ -101,7 +113,7 @@ const Info = () => {
             </a>
           )) ||
             (visible === "fifa" && (
-              <a href={fifa} className={``} download={`reglamento${visible}`}>
+              <a href={fifa} download={`reglamento${visible}`}>
                 Descargar PDF <BiChevronRight />
               </a>
             )) ||
