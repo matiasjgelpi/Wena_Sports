@@ -1,0 +1,28 @@
+#container-subtitulo {
+    position: relative;
+    display: block;
+    margin-top: -410px;
+    margin-left: 40px;
+
+    .subtitulo {
+        transform: skew(-20deg);
+        background-color: rgba(red($colorPrincipalNegro),
+                green($colorPrincipalNegro),
+                blue($colorPrincipalNegro),
+                0.4);
+
+        p {
+            font-family: $font-principal;
+            color: $colorSecundarioBlanco;
+            font-weight: 500;
+            font-size: 48px;
+            transform: skew(20deg);
+            margin-bottom: 5px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+        }
+    }
+}

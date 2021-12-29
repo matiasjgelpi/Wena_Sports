@@ -9,7 +9,8 @@ import Span from "../primitives/Span";
 import Input from "../primitives/Input";
 import Button from "../primitives/Button";
 
-const Footer = () => {
+export const Footer = () => {
+
   return (
     <Container
       as="footer"
@@ -37,5 +38,3 @@ const Footer = () => {
     </Container>
   );
 };
-
-export default Footer;
