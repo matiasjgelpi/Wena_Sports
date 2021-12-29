@@ -1,5 +1,13 @@
 @import "fonts";
 @import "colors";
+
+
+@import "viewContainer";
+@import "sectionContainer";
+@import "info";
+@import "nosotros";
+@import "eventos";
+
 @import "navbar";
 @import "contactbar";
 @import "carousel";
@@ -16,4 +24,5 @@
 body {
     background-color: $colorSecundarioBlanco;
 }
+
 

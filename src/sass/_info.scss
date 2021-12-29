@@ -1,0 +1,131 @@
+.info-container {
+  .info-title {
+    margin-left: 69px;
+    width: 500px;
+    height: 38px;
+    font-family: lemonMilk-medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .info-preguntas {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 56px 55px;
+
+    .card-pregunta {
+      position: relative;
+      width: 20%;
+      span {
+        position: absolute;
+        background-color: #adf0d133;
+        font-family: lemonMilk-medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        left: -27px;
+        top: 10px;
+        padding-left: 5px;
+        color: $colorSecundarioVerde;
+      }
+      h4 {
+        background-color: #adf0d133;
+        width: 240px;
+        font-family: lemonMilk-medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+      }
+      p {
+        width: 240px;
+        height: 42px;
+        margin-top: 50px;
+        font-family: poppins-light;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+
+  .reglamento-container {
+    margin: 160px 0 0 69px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    select {
+      margin-top: 33px;
+      width: 18%;
+      height: 50px;
+      font-family: poppins-light;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      cursor: pointer;
+      border: none;
+      border-bottom: 3px solid $colorPrincipalRojo;
+      background-color: $colorPrincipalBlanco;
+      color: $colorPrincipalRojo;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    button {
+      background-color: black;
+      border-radius: 10px;
+      width: 240px;
+      height: 50px;
+      border: none;
+      margin: 66px 0;
+
+      a {
+        font-family: poppins-light;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $colorSecundarioBlanco;
+        padding-right: 65px;
+      }
+    }
+
+    span {
+      position: absolute;
+      margin-top: 100px;
+      width: 28px;
+      height: 10px;
+      top: -140px;
+      background: $colorSecundarioAmarillo;
+      transform: skew(-25deg);
+    }
+    h3 {
+      width: 500px;
+      height: 38px;
+      font-family: lemonMilk-medium;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 38px;
+    }
+    p {
+      width: 370px;
+      height: 48px;
+      color: $colorPrincipalRojo;
+      font-family: lemonMilk-light;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 24px;
+      margin-top: 40px;
+    }
+  }
+}
