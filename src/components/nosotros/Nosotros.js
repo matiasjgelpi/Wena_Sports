@@ -1,8 +1,7 @@
-import { useState } from "react";
 import Container from "../primitives/Container";
 import Heading from "../primitives/Heading";
 import Text from "../primitives/Text";
-import Carousel from "react-bootstrap/Carousel";
+import Image from "../primitives/Img";
 
 import canterbury from "./canterbury.png";
 import cat from "./cat.png";
@@ -32,37 +31,37 @@ const Nosotros = () => {
         </Text>
       </Container>
 
-      <div class="slider">
-        <div class="slide-track">
-          <div class="slide">
-            <img src={canterbury} height="65px" width="150px" alt="" />
-          </div>
-          <div class="slide">
-            <img src={cat} height="65px" width="150px" alt="" />
-          </div>
-          <div class="slide">
-            <img src={deva} height="65px" width="150px" alt="" />
-          </div>
-          <div class="slide">
-            <img src={gilbert} height="65px" width="150px" alt="" />
-          </div>
-          <div class="slide">
-            <img src={imperial} height="65px" width="150px" alt="" />
-          </div>
-          <div class="slide">
-            <img src={paty} height="65px" width="150px" alt="" />
-          </div>
-          <div class="slide">
-            <img src={powerade} height="65px" width="150px" alt="" />
-          </div>
-          <div class="slide">
-            <img src={sancor} height="65px" width="150px" alt="" />
-          </div>
-          <div class="slide">
-            <img src={tcl} height="65px" width="150px" alt="" />
-          </div>
-        </div>
-      </div>
+      <Container class="slider">
+        <Container class="slide-track">
+          <Container class="slide">
+            <Image src={canterbury} height="65px" width="150px" alt="" />
+          </Container>
+          <Container class="slide">
+            <Image src={cat} height="65px" width="150px" alt="" />
+          </Container>
+          <Container class="slide">
+            <Image src={deva} height="65px" width="150px" alt="" />
+          </Container>
+          <Container class="slide">
+            <Image src={gilbert} height="65px" width="150px" alt="" />
+          </Container>
+          <Container class="slide">
+            <Image src={imperial} height="65px" width="150px" alt="" />
+          </Container>
+          <Container class="slide">
+            <Image src={paty} height="65px" width="150px" alt="" />
+          </Container>
+          <Container class="slide">
+            <Image src={powerade} height="65px" width="150px" alt="" />
+          </Container>
+          <Container class="slide">
+            <Image src={sancor} height="65px" width="150px" alt="" />
+          </Container>
+          <Container class="slide">
+            <Image src={tcl} height="65px" width="150px" alt="" />
+          </Container>
+        </Container>
+      </Container>
     </Container>
   );
 };

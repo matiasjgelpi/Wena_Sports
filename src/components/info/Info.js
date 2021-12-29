@@ -11,6 +11,11 @@ import padel from "../../descargables/padel.pdf";
 import rugby from "../../descargables/rugby.pdf";
 import tenis from "../../descargables/tenis.pdf";
 import { BiChevronRight } from "react-icons/bi";
+import Span from "../primitives/Span";
+import Link from "../primitives/Link";
+import Button from "../primitives/Button";
+import Select from "../primitives/Select";
+import Option from "../primitives/Option";
 
 const Info = () => {
   const [visible, setVisible] = useState("rugby");
@@ -23,13 +28,13 @@ const Info = () => {
       </Heading>
       <Container className="info-preguntas">
         <Container className="card-pregunta">
-          <span>01 </span>{" "}
+          <Span>01 </Span>{" "}
           <Heading level="4"> ¿cuándo es el próximo evento?</Heading>
           <Text>El 1° evento se realizará el feriado sábado 20/11.</Text>
         </Container>
 
         <Container className="card-pregunta">
-          <span>02 </span>{" "}
+          <Span>02 </Span>{" "}
           <Heading level="4">
             ¿quiénes pueden participar de wena sports?
           </Heading>
@@ -40,7 +45,7 @@ const Info = () => {
         </Container>
 
         <Container className="card-pregunta">
-          <span>03 </span>{" "}
+          <Span>03 </Span>{" "}
           <Heading level="4">
             ¿qué deportes competirán en el próximo evento?
           </Heading>
@@ -48,106 +53,64 @@ const Info = () => {
         </Container>
       </Container>
       <Container className="reglamento-container">
-        <span></span>
+        <Span />
         <Heading level="3">Reglamento</Heading>
         <Text>
           PODES DESCARGAR EL REGLAMENTO PARA LOS TORNEOS DE wena sports
         </Text>
-        {/* <ul>
-          <li onClick={() => setVisible("rugby")}>
-            <a href="#rugby" id="rugby">
-              Rugby X
-            </a>
-          </li>
-          <li onClick={() => setVisible("fifa")}>
-            <a href="#fifa" id="fifa">
-              Fifa 21
-            </a>
-          </li>
-          <li onClick={() => setVisible("hockey")}>
-            <a href="#hockey" id="hockey">
-              Hockey 5
-            </a>
-          </li>
-          <li onClick={() => setVisible("beach")}>
-            <a href="#beach" id="beach">
-              Beach Volley
-            </a>
-          </li>
-          <li onClick={() => setVisible("basket")}>
-            <a href="#basket" id="basket">
-              Basketball
-            </a>
-          </li>
-          <li onClick={() => setVisible("futbol")}>
-            <a href="#futbol" id="futbol">
-              Futbol 5
-            </a>
-          </li>
-          <li onClick={() => setVisible("padel")}>
-            <a href="#padel" id="padel">
-              Padel
-            </a>
-          </li>
-          <li onClick={() => setVisible("tenis")}>
-            <a href="#tenis" id="tenis">
-              Tenis
-            </a>
-          </li>
-        </ul> */}
 
-        <select onChange={(event) => setVisible(event.target.value)}>
-          <option value="rugby">Rugby X</option>
-          <option value="hockey">Hockey 5</option>
-          <option value="beach">Beach Volley</option>
-          <option value="fifa">Fifa 22</option>
-          <option value="tenis">Tenis</option>
-          <option value="futbol">Fútbol 5</option>
-          <option value="padel">Padel</option>
-          <option value="basket">Basketball</option>
-        </select>
-        <button>
+        <Select onChange={(event) => setVisible(event.target.value)}>
+          <Option value="rugby">Rugby X</Option>
+          <Option value="hockey">Hockey 5</Option>
+          <Option value="beach">Beach Volley</Option>
+          <Option value="fifa">Fifa 22</Option>
+          <Option value="tenis">Tenis</Option>
+          <Option value="futbol">Fútbol 5</Option>
+          <Option value="padel">Padel</Option>
+          <Option value="basket">Basketball</Option>
+        </Select>
+        <Button>
           {(visible === "rugby" && (
-            <a href={rugby} download={`reglamento${visible}`}>
+            <Link href={rugby} download={`reglamento${visible}`}>
               Descargar PDF <BiChevronRight />
-            </a>
+            </Link>
           )) ||
             (visible === "fifa" && (
-              <a href={fifa} download={`reglamento${visible}`}>
+              <Link href={fifa} download={`reglamento${visible}`}>
                 Descargar PDF <BiChevronRight />
-              </a>
+              </Link>
             )) ||
             (visible === "hockey" && (
-              <a href={hockey} download={`reglamento${visible}`}>
+              <Link href={hockey} download={`reglamento${visible}`}>
                 Descargar PDF <BiChevronRight />
-              </a>
+              </Link>
             )) ||
             (visible === "beach" && (
-              <a href={beach} download={`reglamento${visible}`}>
+              <Link href={beach} download={`reglamento${visible}`}>
                 Descargar PDF <BiChevronRight />
-              </a>
+              </Link>
             )) ||
             (visible === "basket" && (
-              <a href={basket} download={`reglamento${visible}`}>
+              <Link href={basket} download={`reglamento${visible}`}>
                 Descargar PDF <BiChevronRight />
-              </a>
+              </Link>
             )) ||
             (visible === "futbol" && (
-              <a href={futbol} download={`reglamento${visible}`}>
+              <Link href={futbol} download={`reglamento${visible}`}>
                 Descargar PDF <BiChevronRight />
-              </a>
+              </Link>
             )) ||
             (visible === "padel" && (
-              <a href={padel} download={`reglamento${visible}`}>
+              <Link href={padel} download={`reglamento${visible}`}>
                 Descargar PDF <BiChevronRight />
-              </a>
+              </Link>
             )) ||
             (visible === "tenis" && (
-              <a href={tenis} download={`reglamento${visible}`}>
+              <Link href={tenis} download={`reglamento${visible}`}>
                 Descargar PDF <BiChevronRight />
-              </a>
+              </Link>
             ))}
-        </button>
+        </Button>
       </Container>
     </Container>
   );

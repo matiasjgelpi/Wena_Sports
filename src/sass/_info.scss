@@ -79,37 +79,6 @@
       }
     }
 
-    ul {
-      display: flex;
-      justify-content: space-evenly;
-      margin-right: 69px;
-      margin-top: 55px;
-      li {
-        list-style: none;
-        font-family: poppins-light;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 24px;
-        cursor: pointer;
-        a {
-          padding-right: 38px;
-          color: $colorPrincipalNegro;
-        }
-
-        a:link,
-        a:visited,
-        a:hover,
-        a:active {
-          text-decoration: none;
-        }
-
-        a:target {
-          border-bottom: 3px solid $colorPrincipalRojo;
-        }
-      }
-    }
-
     button {
       background-color: black;
       border-radius: 10px;

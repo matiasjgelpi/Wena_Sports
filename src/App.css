@@ -121,7 +121,7 @@
       line-height: 19px; }
     .footer-container .newsletter-container input[type="email"] {
       height: 30px;
-      width: 370px;
+      width: 100%;
       left: 730px;
       top: 2960px;
       border-radius: 0px;
@@ -134,7 +134,7 @@
       .footer-container .newsletter-container input[type="email"]:focus {
         opacity: 1; }
     .footer-container .newsletter-container button {
-      width: 240px;
+      width: 70%;
       height: 50px;
       left: 730px;
       top: 3010px;
@@ -181,8 +181,6 @@
   margin-left: 69px;
   width: 500px;
   height: 38px;
-  left: 80px;
-  top: 388px;
   font-family: lemonMilk-medium;
   font-style: normal;
   font-weight: 500;
@@ -219,8 +217,6 @@
     .info-container .info-preguntas .card-pregunta p {
       width: 240px;
       height: 42px;
-      left: 211px;
-      top: 569px;
       margin-top: 50px;
       font-family: poppins-light;
       font-style: normal;
@@ -249,29 +245,6 @@
     color: #ff3d2d; }
     .info-container .reglamento-container select:focus {
       outline: none; }
-  .info-container .reglamento-container ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 69px;
-    margin-top: 55px; }
-    .info-container .reglamento-container ul li {
-      list-style: none;
-      font-family: poppins-light;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 24px;
-      cursor: pointer; }
-      .info-container .reglamento-container ul li a {
-        padding-right: 38px;
-        color: #222222; }
-      .info-container .reglamento-container ul li a:link,
-      .info-container .reglamento-container ul li a:visited,
-      .info-container .reglamento-container ul li a:hover,
-      .info-container .reglamento-container ul li a:active {
-        text-decoration: none; }
-      .info-container .reglamento-container ul li a:target {
-        border-bottom: 3px solid #ff3d2d; }
   .info-container .reglamento-container button {
     background-color: black;
     border-radius: 10px;
@@ -298,8 +271,6 @@
   .info-container .reglamento-container h3 {
     width: 500px;
     height: 38px;
-    left: 80px;
-    top: 388px;
     font-family: lemonMilk-medium;
     font-style: normal;
     font-weight: 500;
@@ -308,8 +279,6 @@
   .info-container .reglamento-container p {
     width: 370px;
     height: 48px;
-    left: 80px;
-    top: 890px;
     color: #ff3d2d;
     font-family: lemonMilk-light;
     font-style: normal;
@@ -321,12 +290,11 @@
 .nosotros-container .nosotros-info {
   display: flex;
   flex-direction: row;
-  margin-left: 69px; }
+  margin-left: 69px;
+  flex-wrap: wrap; }
   .nosotros-container .nosotros-info h3 {
     width: 500px;
     height: 38px;
-    left: 80px;
-    top: 388px;
     font-family: lemonMilk-medium;
     font-style: normal;
     font-weight: 500;
@@ -334,8 +302,6 @@
   .nosotros-container .nosotros-info p {
     width: 500px;
     height: 240px;
-    left: 600px;
-    top: 401px;
     font-family: poppins-light;
     font-style: normal;
     font-weight: 300;
@@ -354,7 +320,7 @@
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 960px; }
+  width: 80%; }
   .nosotros-container .slider::before, .nosotros-container .slider::after {
     content: "";
     height: 100px;
@@ -389,29 +355,23 @@
   font-size: 28px;
   line-height: 38px; }
 
-.eventos-container ul {
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: 69px;
-  margin-top: 55px; }
-  .eventos-container ul li {
-    list-style: none;
-    font-family: poppins-light;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    cursor: pointer; }
-    .eventos-container ul li a {
-      padding-right: 38px;
-      color: #222222; }
-    .eventos-container ul li a:link,
-    .eventos-container ul li a:visited,
-    .eventos-container ul li a:hover,
-    .eventos-container ul li a:active {
-      text-decoration: none; }
-    .eventos-container ul li a:target {
-      border-bottom: 3px solid #ff3d2d; }
+.eventos-container select {
+  margin-left: 69px;
+  margin-top: 33px;
+  width: 18%;
+  height: 50px;
+  font-family: poppins-light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  border: none;
+  border-bottom: 3px solid #ff3d2d;
+  background-color: #e5e5e5;
+  color: #ff3d2d; }
+  .eventos-container select:focus {
+    outline: none; }
 
 .eventos-container .form-container {
   flex-wrap: wrap;
@@ -453,7 +413,7 @@
       line-height: 24px;
       margin-top: 40px; }
   .eventos-container .form-container .form {
-    width: 25%; }
+    width: 350px; }
     .eventos-container .form-container .form form {
       display: flex;
       flex-direction: column;

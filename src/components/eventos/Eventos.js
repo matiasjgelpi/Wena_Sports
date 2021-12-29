@@ -3,6 +3,16 @@ import Container from "../primitives/Container";
 import Heading from "../primitives/Heading";
 import Text from "../primitives/Text";
 import { BiChevronRight } from "react-icons/bi";
+import List from "../primitives/List";
+import ListItem from "../primitives/ListItem";
+import Span from "../primitives/Span";
+import Input from "../primitives/Input";
+import Link from "../primitives/Link";
+import Button from "../primitives/Button";
+import Form from "../primitives/Form";
+import Rugby from "./fixtures/rugby/Rugby";
+import Select from "../primitives/Select";
+import Option from "../primitives/Option";
 
 const Eventos = () => {
   const [visible, setVisible] = useState("");
@@ -10,51 +20,20 @@ const Eventos = () => {
   return (
     <Container className="eventos-container">
       <Heading level="3">TABLA DE POSICIONES</Heading>
-      <ul>
-        <li onClick={() => setVisible("rugby")}>
-          <a href="#rugby" id="rugby">
-            Rugby X
-          </a>
-        </li>
-        <li onClick={() => setVisible("fifa")}>
-          <a href="#fifa" id="fifa">
-            Fifa 21
-          </a>
-        </li>
-        <li onClick={() => setVisible("hockey")}>
-          <a href="#hockey" id="hockey">
-            Hockey 5
-          </a>
-        </li>
-        <li onClick={() => setVisible("beach")}>
-          <a href="#beach" id="beach">
-            Beach Volley
-          </a>
-        </li>
-        <li onClick={() => setVisible("basket")}>
-          <a href="#basket" id="basket">
-            Basketball
-          </a>
-        </li>
-        <li onClick={() => setVisible("futbol")}>
-          <a href="#futbol" id="futbol">
-            Futbol 5
-          </a>
-        </li>
-        <li onClick={() => setVisible("padel")}>
-          <a href="#padel" id="padel">
-            Padel
-          </a>
-        </li>
-        <li onClick={() => setVisible("tenis")}>
-          <a href="#tenis" id="tenis">
-            Tenis
-          </a>
-        </li>
-      </ul>
+      <Select onChange={(event) => setVisible(event.target.value)}>
+        <Option value="rugby">Rugby X</Option>
+        <Option value="hockey">Hockey 5</Option>
+        <Option value="beach">Beach Volley</Option>
+        <Option value="fifa">Fifa 22</Option>
+        <Option value="tenis">Tenis</Option>
+        <Option value="futbol">Fútbol 5</Option>
+        <Option value="padel">Padel</Option>
+        <Option value="basket">Basketball</Option>
+      </Select>
+      <Rugby></Rugby>
       <Container className="form-container">
         <Container className="info">
-          <span></span>
+          <Span />
           <Heading level="4">Suscripciones</Heading>
           <Text>
             ingresá tus datos para recibir un mail con información y/o
@@ -62,15 +41,15 @@ const Eventos = () => {
           </Text>
         </Container>
         <Container className="form">
-          <form>
-            <input placeholder="Nombre"></input>
-            <input placeholder="Edad"></input>
-            <input placeholder="Mail"></input>
-            <input placeholder="Deporte"></input>
-          </form>{" "}
-          <button>
+          <Form>
+            <Input placeholder="Nombre"></Input>
+            <Input placeholder="Edad"></Input>
+            <Input placeholder="Mail"></Input>
+            <Input placeholder="Deporte"></Input>
+          </Form>{" "}
+          <Button>
             Aceptar <BiChevronRight />
-          </button>
+          </Button>
         </Container>
       </Container>
     </Container>
