@@ -3,14 +3,12 @@ import Container from "../primitives/Container";
 import Heading from "../primitives/Heading";
 import Text from "../primitives/Text";
 import { BiChevronRight } from "react-icons/bi";
-import List from "../primitives/List";
-import ListItem from "../primitives/ListItem";
+
 import Span from "../primitives/Span";
 import Input from "../primitives/Input";
 import Link from "../primitives/Link";
 import Button from "../primitives/Button";
 import Form from "../primitives/Form";
-import Rugby from "./fixtures/rugby/Rugby";
 import Select from "../primitives/Select";
 import Option from "../primitives/Option";
 
@@ -30,7 +28,6 @@ const Eventos = () => {
         <Option value="padel">Padel</Option>
         <Option value="basket">Basketball</Option>
       </Select>
-      <Rugby></Rugby>
       <Container className="form-container">
         <Container className="info">
           <Span />

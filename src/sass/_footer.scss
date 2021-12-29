@@ -8,6 +8,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  width: 82%;
+  margin: 0 auto;
 
   .description-container {
     width: 24%;
@@ -54,11 +56,8 @@
       border: none;
       outline: none;
 
-
-
       &:focus {
         opacity: 1;
-
       }
     }
 
