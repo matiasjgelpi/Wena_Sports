@@ -3,6 +3,7 @@ import bgFooter from "./bg-footer.png";
 import { BiChevronRight } from "react-icons/bi";
 
 export const Footer = () => {
+
   return (
     <div
       className="footer-container"
@@ -27,5 +28,3 @@ export const Footer = () => {
     </div>
   );
 };
-
-
