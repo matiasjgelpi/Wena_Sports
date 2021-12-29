@@ -1,8 +1,7 @@
 import { Row, Col } from "react-bootstrap";
 
-export const Cobertura = () => {
+export const HomeSeccion3 = () => {
   return (
-    <>
       <Row className="home cobertura">
         <Col id="" className="" lg={"6"}>
           <div className="rectangulo-amarillo"></div>
@@ -42,6 +41,5 @@ export const Cobertura = () => {
           </Col>
         </Row>
       </Row>
-    </>
   );
 };
