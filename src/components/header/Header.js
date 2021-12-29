@@ -1,12 +1,12 @@
-import React from 'react'
-import { Navbar } from '../navbar/Navbar'
-import { ContactBar } from '../contactbar/ContactBar'
+import { Container, Row } from "react-bootstrap";
+import { NavBar } from "../navbar/Navbar";
+import { ContactBar } from "../contactbar/ContactBar";
 
 export const Header = () => {
-    return (
-        <div>
-            <ContactBar/>
-            <Navbar/>
-        </div>
-    )
-}
+  return (
+    <>
+      <ContactBar />
+      <NavBar />
+    </>
+  );
+};

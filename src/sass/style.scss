@@ -1,5 +1,19 @@
 @import "fonts";
 @import "colors";
-@import "navbarStyle";
-@import "contactbarStyle";
-@import "./footer";
+@import "navbar";
+@import "contactbar";
+@import "carousel";
+@import "paralelogramos";
+@import "paralelogramosgroup";
+@import "subtitulocarousel";
+@import "rectangulorojocarousel";
+@import "logofondocarousel";
+@import "footer";
+@import "home";
+@import "homes3";
+@import "homes4";
+
+body {
+    background-color: $colorSecundarioBlanco;
+}
+

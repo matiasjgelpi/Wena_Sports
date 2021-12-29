@@ -1,0 +1,68 @@
+.cobertura {
+    background-color: rgba(red($colorPrincipalRojo),
+            green($colorPrincipalRojo),
+            blue($colorPrincipalRojo),
+            0.12);
+    padding: 30px 5% 28px 70px;
+    margin: 0;
+    height: 440px;
+
+                  
+
+
+    .iconos {
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .medios-cobertura-container {
+        margin-top: 42px;
+
+
+    }
+
+    .texto-iconos {
+        font-family: $font-textos;
+        font-size: 16px;
+        color: $colorPrincipalNegro;
+        line-height: 24px;
+        display: inline;
+        font-weight: 500;
+       
+    }
+
+    .titulo-iconos {
+        font-weight: bolder;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 5px;
+        width: 250px;
+    }
+
+
+    #antena {
+        width: 35px;
+        background-image: url(./components/homeSeccion3/antena.png);
+    }
+
+    #instagram {
+        width: 30px;
+        background-image: url(./components/homeSeccion3/instagram.png);
+    }
+
+    #tiktok {
+        width: 26px;
+        background-image: url(./components/homeSeccion3/tiktok.png);
+    }
+
+    #facebook {
+        width: 17px;
+        background-image: url(./components/homeSeccion3/facebook.png);
+    }
+
+    #twitch {
+        width: 29px;
+        background-image: url(./components/homeSeccion3/twitch.png);
+    }
+
+}
