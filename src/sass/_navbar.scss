@@ -1,79 +1,81 @@
+.navbar {
+  border-radius: 0px;
+}
+
 #navbar {
-    background-color: $colorPrincipalNegro;
-    font-family: $font-subtitulos;
-    height: 110px;
-    margin-top: 40px;
-    width: auto;
+  background-color: $colorPrincipalNegro;
+  font-family: $font-subtitulos;
+  height: 110px;
+  margin-bottom: 0;
+  width: 82%;
 
-    #logo-navbar {
-        margin: 30px 120px 25px 18%;
-        padding: 0 ;
-        width: 110px;
-        height: 46px;
-        left: 80px;
-        top: 79px;
-        background-image: url(./components/navbar/logo-navbar.png);
+
+  #logo-navbar {
+    margin: 30px 120px 25px 6%;
+    padding: 0;
+    width: 110px;
+    height: 46px;
+    left: 80px;
+    top: 79px;
+    background-image: url(./components/navbar/logo-navbar.png);
+  }
+
+  .brand {
+    margin-right: 36%;
+
+    // AGREGUE ESTO ---------------->
+    display: flex;
+    align-items: center;
+  }
+
+  #buscar {
+    width: 14px;
+    height: 14px;
+    top: 8px;
+    bottom: 16px;
+    background-image: url(./components/navbar/lupa.png);
+    margin: 0 0 0 6%;
+  }
+
+  a {
+    color: $colorSecundarioBlanco;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    text-orientation: initial;
+  }
+
+  .link {
+    border: 3px solid $colorPrincipalNegro;
+    padding: 4px 8px 4px 8px;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    .link-text {
+      margin-bottom: 0;
+      display: flex;
+      justify-content: center;
+      transform: skew(15deg);
     }
+  }
 
-    .brand {
-        margin-right: 36%;
-    }
+  .link:focus {
+    border: 3px solid $colorPrincipalRojo;
+    // -webkit-transform: skew(-15deg);
+    // -moz-transform: skew(-15deg);
+    // -ms-transform: skew(-15deg);
+    // -o-transform: skew(-15deg);
+    // transform: skew(-15deg);
 
-    #buscar {
-        width: 14px;
-        height: 14px;
-        top: 8px;
-        bottom: 16px;
-        background-image: url(./components/navbar/lupa.png);
-        margin: 0 5% 0 6%;
-    }
-
-    a {
-        color: $colorSecundarioBlanco;
-        font-style: normal;
-        text-decoration: none;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 19px;
-        text-orientation: initial;
-
- 
-
-     
-    }
-
-    .link {
-        border: 3px solid $colorPrincipalNegro;
-        padding: 4px 8px 4px 8px ;
-        -webkit-transform: skew(-15deg);
-        -moz-transform: skew(-15deg);
-        -ms-transform: skew(-15deg);
-        -o-transform: skew(-15deg);
-        transform: skew(-15deg);
-
-        .link-text {
-            margin-bottom: 0;
-            display: flex;
-            justify-content: center;
-            transform: skew(15deg);
-        }
-    }
-
-    .link:focus{
-        border: 3px solid $colorPrincipalRojo;
-        // -webkit-transform: skew(-15deg);
-        // -moz-transform: skew(-15deg);
-        // -ms-transform: skew(-15deg);
-        // -o-transform: skew(-15deg);
-        // transform: skew(-15deg);
-       
-        // .link-text {
-        //     display: flex;
-        //     justify-content: center;
-        //     transform: skew(15deg);
-        // }
-    
-    }
-
-   
+    // .link-text {
+    //     display: flex;
+    //     justify-content: center;
+    //     transform: skew(15deg);
+    // }
+  }
 }

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export const NavBar = () => {
   return (
     <>
-      <Navbar id="navbar" className="container" fixed="top">
+      <Navbar id="navbar" className="container-fluid">
         <Container>
           {/* <Navbar.Collapse> */}
 

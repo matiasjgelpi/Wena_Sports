@@ -1,42 +1,38 @@
 .seccion4 {
-    padding: 118px 18% 134px 70px;
-    margin: 0;
-    height: 740px;
+  padding: 118px 18% 134px 70px;
+  margin: 0;
+  height: 740px;
 }
 
-.carousel-item {
-    img {
-        border-radius: 10px;
-    }
+.carousels4-img {
+  border-radius: 10px;
 }
 
 #col-carousel {
-    padding-top: 50px
+  padding-top: 50px;
 }
 
-
-
 #direccion {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .prev-icon {
-    background-image: url(./components/homeSeccion4/prev.png);
-    width: 12px;
-    height: 17px;
-    background-repeat: no-repeat;
+  background-image: url(./components/homeSeccion4/prev.png);
+  width: 12px;
+  height: 17px;
+  background-repeat: no-repeat;
 }
 
 .next-icon {
-    background-image: url(./components/homeSeccion4/next.png);
-    width: 12px;
-    height: 17px;
-    background-repeat: no-repeat;
+  background-image: url(./components/homeSeccion4/next.png);
+  width: 12px;
+  height: 17px;
+  background-repeat: no-repeat;
 }
 
 .carousel-s4 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 630px;
-    height: 222px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 630px;
+  height: 222px;
 }
