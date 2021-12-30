@@ -6,14 +6,14 @@ import { BiChevronRight } from "react-icons/bi";
 
 import Span from "../primitives/Span";
 import Input from "../primitives/Input";
-import Link from "../primitives/Link";
+// import Link from "../primitives/Link";
 import Button from "../primitives/Button";
 import Form from "../primitives/Form";
 import Select from "../primitives/Select";
 import Option from "../primitives/Option";
 
 const Eventos = () => {
-  const [visible, setVisible] = useState("");
+  const [ setVisible] = useState("");
 
   return (
     <Container className="eventos-container">
