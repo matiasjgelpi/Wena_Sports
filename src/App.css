@@ -315,7 +315,7 @@
   margin-bottom: 0;
   width: 100%; }
   #navbar #logo-navbar {
-    margin: 30px 120px 25px 6%;
+    margin: 30px 120px 25px 0%;
     padding: 0;
     width: 110px;
     height: 46px;
@@ -323,7 +323,7 @@
     top: 79px;
     background-image: url(./components/navbar/logo-navbar.png); }
   #navbar .brand {
-    margin-right: 36%;
+    margin-right: 32%;
     display: flex;
     align-items: center; }
   #navbar #buscar {
@@ -332,7 +332,7 @@
     top: 8px;
     bottom: 16px;
     background-image: url(./components/navbar/lupa.png);
-    margin: 0 0 0 6%; }
+    margin: 0 0 0 4%; }
   #navbar a {
     color: #f2f2f2;
     font-style: normal;
@@ -361,9 +361,9 @@
   background-color: #222222;
   font-family: poppins-light;
   height: 40px;
-  padding-left: 35%;
+  padding-left: 45%;
   padding-top: 4px;
-  padding-right: 8%;
+  padding-right: 20%;
   width: 100%; }
   #contact-bar #facebook {
     width: 8.5px;
@@ -449,16 +449,16 @@
 
 #paralelogramos-group {
   position: relative;
-  margin-left: 300px;
-  margin-right: 3.5%;
+  margin-left: 18%;
+  margin-right: 11%;
   margin-top: 100px;
-  bottom: 200px; }
+  bottom: 225px; }
 
 #container-subtitulo {
   position: relative;
   display: block;
-  margin-top: -430px;
-  margin-left: 40px; }
+  margin-top: -500px;
+  margin-left: 5%; }
   #container-subtitulo .subtitulo {
     transform: skew(-20deg);
     background-color: rgba(34, 34, 34, 0.4); }
@@ -483,9 +483,9 @@
   position: absolute;
   width: 100%;
   margin-bottom: 0px;
-  margin-top: -174px;
+  margin-top: -250px;
   padding: 0;
-  height: 174px;
+  height: 250px;
   background-color: #ff3d2d;
   opacity: 0.4; }
 
@@ -578,8 +578,8 @@
   width: 100%; }
 
 .home {
-  margin: 135px 0px 0px 0px;
-  padding: 0px 22% 115px 70px;
+  margin: 12.1% 0px 0px 0px;
+  padding: 0px 22% 115px 8%;
   background-color: #E5E5E5; }
   .home .rectangulo-amarillo {
     width: 28px;
@@ -627,7 +627,7 @@
 
 .cobertura {
   background-color: rgba(255, 61, 45, 0.12);
-  padding: 30px 5% 28px 70px;
+  padding: 30px 15% 28px 8%;
   margin: 0;
   height: 440px; }
   .cobertura .iconos {
@@ -665,7 +665,7 @@
     background-image: url(./components/homeSeccion3/twitch.png); }
 
 .seccion4 {
-  padding: 118px 18% 134px 70px;
+  padding: 118px 18% 134px 8%;
   margin: 0;
   height: 740px; }
 

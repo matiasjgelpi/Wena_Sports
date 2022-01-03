@@ -11,7 +11,7 @@
 
 
   #logo-navbar {
-    margin: 30px 120px 25px 6%;
+    margin: 30px 120px 25px 0%;
     padding: 0;
     width: 110px;
     height: 46px;
@@ -21,7 +21,7 @@
   }
 
   .brand {
-    margin-right: 36%;
+    margin-right: 32%;
 
     // AGREGUE ESTO ---------------->
     display: flex;
@@ -34,7 +34,7 @@
     top: 8px;
     bottom: 16px;
     background-image: url(./components/navbar/lupa.png);
-    margin: 0 0 0 6%;
+    margin: 0 0 0 4%;
   }
 
   a {
@@ -66,16 +66,5 @@
 
   .link:focus {
     border: 3px solid $colorPrincipalRojo;
-    // -webkit-transform: skew(-15deg);
-    // -moz-transform: skew(-15deg);
-    // -ms-transform: skew(-15deg);
-    // -o-transform: skew(-15deg);
-    // transform: skew(-15deg);
-
-    // .link-text {
-    //     display: flex;
-    //     justify-content: center;
-    //     transform: skew(15deg);
-    // }
   }
 }
