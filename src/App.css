@@ -357,7 +357,7 @@
     top: 8px;
     bottom: 16px;
     background-image: url(./components/navbar/lupa.png);
-    margin: 0 0 0 4%; }
+    margin: 0 0 0 0; }
   #navbar a {
     color: #f2f2f2;
     font-style: normal;
@@ -390,6 +390,10 @@
 
 .navbar-light .navbar-toggler-icon {
   background-image: url(./components/navbar/menu-responsive.png); }
+
+@media only screen and (min-width: 450px) {
+  #responsive-navbar-nav {
+    display: flex; } }
 
 @media only screen and (max-width: 1200px) {
   #logo-navbar {

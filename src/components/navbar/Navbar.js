@@ -1,11 +1,9 @@
-
 import {useState} from "react"
 import { Navbar, Container, Nav } from "react-bootstrap";
 import LogoNavbar from "./logo-navbar.png";
 import LogoResponsive from "./logo-responsive.png";
 import { NavLink } from "react-router-dom";
 import { TituloNavResponsive } from "../titulonavresponsive/TituloNavResponsive";
-
 
 export const NavBar = () => {
 
@@ -14,7 +12,7 @@ export const NavBar = () => {
   const menuDropdown = (e) => {
     const toggler = document.getElementById("responsive-navbar-nav")
     toggler.classList.remove("show")
-     setTitulo(e.target.innerHTML)
+    setTitulo(e.target.innerHTML)
   }
 
   return (
@@ -38,8 +36,7 @@ export const NavBar = () => {
               {" "}
             </NavLink>
           </Navbar.Brand>
-          {titulo !=="" && <TituloNavResponsive text={titulo}/>}
-          
+            {titulo !=="" && <TituloNavResponsive text={titulo}/>}
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse id="responsive-navbar-nav" >
             <Nav.Item>
