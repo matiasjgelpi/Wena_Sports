@@ -1,15 +1,11 @@
-// import { Navbar, Container, Nav } from "react-bootstrap";
-import { useParams } from "react-router-dom";
 
 
-export const TituloNavResponsive = () => {
+export const TituloNavResponsive = ({text}) => {
 
-    const { cat } = useParams();
-    console.log(cat)
 
   return (
     <div className="titulo-responsive-nav">
-      <p className="titulo-responsive-nav-text"></p>
+      <p className="titulo-responsive-nav-text">{text}</p>
     </div>
   );
 };

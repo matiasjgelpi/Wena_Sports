@@ -733,6 +733,7 @@
   height: 222px; }
 
 .titulo-responsive-nav {
+  display: none;
   border: 3px solid #ff3d2d;
   padding: 4px 8px 4px 8px;
   -webkit-transform: skew(-15deg);
@@ -752,6 +753,10 @@
     display: flex;
     justify-content: center;
     transform: skew(15deg); }
+
+@media only screen and (max-width: 1200px) {
+  .titulo-responsive-nav {
+    display: flex; } }
 
 body {
   background-color: #f2f2f2; }

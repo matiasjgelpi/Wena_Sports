@@ -1,14 +1,21 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import LogoNavbar from "./logo-navbar.png";
 import LogoResponsive from "./logo-responsive.png";
-import { NavLink } from "react-router-dom";
+import { NavLink} from "react-router-dom";
+import { useState } from "react";
 import { TituloNavResponsive } from "../titulonavresponsive/TituloNavResponsive";
+
+
 
 export const NavBar = () => {
 
-  const menuDropdown = () => {
+  const [titulo, setTitulo] = useState("")
+
+
+  const menuDropdown = (e) => {
     const toggler = document.getElementById("responsive-navbar-nav")
     toggler.classList.remove("show")
+    e.target.innerText === "" ? setTitulo("HOME") : setTitulo(e.target.innerText)
   }
 
   return (
@@ -16,24 +23,23 @@ export const NavBar = () => {
       <Navbar id="navbar" className="container-fluid"  collapseOnSelect expand="xl">
         <Container>
           <Navbar.Brand className="brand">
-            <NavLink to="/">
+            <NavLink to="/" onClick={menuDropdown}>
               <img
-                alt=""
+                alt="Home"
                 src={LogoNavbar}
                 id="logo-navbar"
                 className="align-top"
               />
                 <img
-                alt=""
+                alt="Home"
                 src={LogoResponsive}
                 id="logo-responsive"
                 className="align-top"
               />
               {" "}
             </NavLink>
-          </Navbar.Brand>
-
-          <TituloNavResponsive></TituloNavResponsive>
+          </Navbar.Brand> 
+          <TituloNavResponsive text={titulo}/>
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse id="responsive-navbar-nav" >
             <Nav.Item>

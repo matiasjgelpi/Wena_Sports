@@ -7,6 +7,8 @@ import Container from "../primitives/Container";
 import Heading from "../primitives/Heading";
 import Span from "../primitives/Span";
 
+
+
 export const SectionContainer = () => {
   const { cat } = useParams();
 
