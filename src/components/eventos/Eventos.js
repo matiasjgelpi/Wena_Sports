@@ -13,10 +13,6 @@ import Form from "../primitives/Form";
 import Select from "../primitives/Select";
 import Option from "../primitives/Option";
 
-
-const Eventos = () => {
-  const [ setVisible] = useState("");
-
 import Image from "../primitives/Img";
 
 import fixture4desktop from "./fixtures/desktop_fixturex4.png";
@@ -38,12 +34,10 @@ const Eventos = () => {
     return array;
   };
 
-
   return (
     <Container className="eventos-container">
       <Heading level="3">TABLA DE POSICIONES</Heading>
       <Select onChange={(event) => setVisible(event.target.value)}>
-
         <Option value="4">Rugby X</Option>
         <Option value="8">Hockey 5</Option>
         <Option value="8">Beach Volley</Option>
@@ -73,7 +67,6 @@ const Eventos = () => {
           </li>
         ))}
       </ul>
-
 
       <Container className="form-container">
         <Container className="info">
