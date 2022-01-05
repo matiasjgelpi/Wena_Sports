@@ -9,7 +9,7 @@ import { TituloNavResponsive } from "../titulonavresponsive/TituloNavResponsive"
 
 export const NavBar = () => {
 
-  const [titulo, setTitulo] = useState("")
+  const [titulo, setTitulo] = useState("HOME")
 
 
   const menuDropdown = (e) => {
