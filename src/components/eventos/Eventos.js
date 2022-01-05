@@ -6,28 +6,68 @@ import { BiChevronRight } from "react-icons/bi";
 
 import Span from "../primitives/Span";
 import Input from "../primitives/Input";
-// import Link from "../primitives/Link";
+import Link from "../primitives/Link";
+
 import Button from "../primitives/Button";
 import Form from "../primitives/Form";
 import Select from "../primitives/Select";
 import Option from "../primitives/Option";
 
+import Image from "../primitives/Img";
+
+import fixture4desktop from "./fixtures/desktop_fixturex4.png";
+import fixture8desktop from "./fixtures/desktop_fixturex8.png";
+import fixture16desktop from "./fixtures/desktop_fixturex16.png";
+import fixture32desktop from "./fixtures/desktop_fixturex32.png";
+import fixture4mobile from "./fixtures/mobile_fiturex4.png";
+import fixture8mobile from "./fixtures/mobile_fixturex8.png";
+import fixture16mobile from "./fixtures/mobile_fixturex16.png";
+import fixture32mobile from "./fixtures/mobile_fixturex32.png";
+
 const Eventos = () => {
-  const [ setVisible] = useState("");
+  const [visible, setVisible] = useState("4");
+  let array = [];
+  const creoArrayEquipos = (cant) => {
+    for (let i = 1; i <= cant; i++) {
+      array.push(i);
+    }
+    return array;
+  };
 
   return (
     <Container className="eventos-container">
       <Heading level="3">TABLA DE POSICIONES</Heading>
       <Select onChange={(event) => setVisible(event.target.value)}>
-        <Option value="rugby">Rugby X</Option>
-        <Option value="hockey">Hockey 5</Option>
-        <Option value="beach">Beach Volley</Option>
-        <Option value="fifa">Fifa 22</Option>
-        <Option value="tenis">Tenis</Option>
-        <Option value="futbol">Fútbol 5</Option>
-        <Option value="padel">Padel</Option>
-        <Option value="basket">Basketball</Option>
+        <Option value="4">Rugby X</Option>
+        <Option value="8">Hockey 5</Option>
+        <Option value="8">Beach Volley</Option>
+        <Option value="32">Fifa 22</Option>
+        <Option value="4">Tenis</Option>
+        <Option value="16">Fútbol 5</Option>
+        <Option value="8">Padel</Option>
+        <Option value="16">Basketball</Option>
       </Select>
+      <Container>
+        {" "}
+        <Image
+          className="image-container"
+          src={
+            (visible === "4" && fixture4desktop) ||
+            (visible === "8" && fixture8desktop) ||
+            (visible === "16" && fixture16desktop) ||
+            (visible === "32" && fixture32desktop)
+          }
+        />
+      </Container>
+      <ul>
+        {creoArrayEquipos(parseInt(visible)).map((e) => (
+          <li>
+            <span></span>
+            Nombre de equipo {e}
+          </li>
+        ))}
+      </ul>
+
       <Container className="form-container">
         <Container className="info">
           <Span />

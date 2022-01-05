@@ -16,7 +16,8 @@ export const Home = () => {
       <HomeSeccion2></HomeSeccion2>
       <HomeSeccion3></HomeSeccion3>
       <HomeSeccion4></HomeSeccion4>
-      {/* </> */}
+      {/* <Footer></Footer> */}
+
     </Container>
   );
 };

@@ -6,11 +6,13 @@
   background-color: $colorPrincipalNegro;
   font-family: $font-subtitulos;
   height: 110px;
+
   margin-bottom: 0;
   width: 100%;
 
   #logo-navbar {
     margin: 30px 120px 25px 0%;
+
     padding: 0;
     width: 110px;
     height: 46px;
@@ -76,13 +78,9 @@
     border-color: $colorPrincipalNegro;
   }
 
-
-
-
-
   .navbar-toggler-icon {
     background-image: url(./components/navbar/menu-responsive.png);
-}
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -95,36 +93,32 @@
     width: 47px;
     height: 42px;
     margin: 30px 120px 25px 0%;
-
   }
 
   #navbar {
-
     #buscar {
-    display: none;
+      display: none;
     }
 
-    a{
+    a {
       background-color: $colorPrincipalNegro;
     }
+  }
 
-    .link:focus {
-      border: none;
-    }
+  .link:focus {
+    border: none;
+  }
 
-    .link {
-      border:none;
-      padding: 4px 8px 4px 8px;
+  .link {
+    border: none;
+    padding: 4px 8px 4px 8px;
+    transform: skew(0);
+
+    .link-text {
+      margin-bottom: 0;
+      display: flex;
+      justify-content: center;
       transform: skew(0);
-  
-      .link-text {
-        margin-bottom: 0;
-        display: flex;
-        justify-content: center;
-        transform: skew(0);
-      }
     }
-  
-
   }
 }
