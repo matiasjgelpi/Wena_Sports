@@ -59,10 +59,10 @@ export const NavBar = () => {
                 <p className="link-text">INFORMACIÓN ÚTIL</p>
               </NavLink>
             </Nav.Item>
-            <Nav.Item id="buscar">
+          </Navbar.Collapse>
+          <Nav.Item id="buscar">
               <NavLink to="/category/buscar" className="nav-link" />
             </Nav.Item>
-          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>
