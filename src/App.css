@@ -403,13 +403,13 @@
     display: none; }
   #navbar a {
     background-color: #222222; }
-  .link:focus {
+  #navbar .link:focus {
     border: none; }
-  .link {
+  #navbar .link {
     border: none;
     padding: 4px 8px 4px 8px;
     transform: skew(0); }
-    .link .link-text {
+    #navbar .link .link-text {
       margin-bottom: 0;
       display: flex;
       justify-content: center;
