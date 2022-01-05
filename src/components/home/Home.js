@@ -5,7 +5,10 @@ import { HomeSeccion3 } from "../homeSeccion3/HomeSeccion3";
 import { HomeSeccion4 } from "../homeSeccion4/HomeSeccion4";
 
 
+
 export const Home = () => {
+
+  
   return  (
     <Container fluid id="home-container " className="justify-content-center">
     {/* <> */}

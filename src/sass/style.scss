@@ -1,13 +1,10 @@
 @import "fonts";
 @import "colors";
-
-
 @import "viewContainer";
 @import "sectionContainer";
 @import "info";
 @import "nosotros";
 @import "eventos";
-
 @import "navbar";
 @import "contactbar";
 @import "carousel";
@@ -20,6 +17,7 @@
 @import "home";
 @import "homes3";
 @import "homes4";
+@import "titulonavresponsive";
 
 body {
     background-color: $colorSecundarioBlanco;

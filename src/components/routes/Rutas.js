@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header } from "../header/Header";
 import { Home } from "../home/Home";
-
 import { SectionContainer } from "../sectionContainer/SectionContainer";
 import { Footer } from "../footer/Footer";
+
 
 export default function Rutas() {
   return (
