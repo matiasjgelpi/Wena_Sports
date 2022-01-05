@@ -1,4 +1,3 @@
-import {useState} from "react"
 import { Navbar, Container, Nav } from "react-bootstrap";
 import LogoNavbar from "./logo-navbar.png";
 import LogoResponsive from "./logo-responsive.png";
@@ -7,20 +6,16 @@ import { TituloNavResponsive } from "../titulonavresponsive/TituloNavResponsive"
 
 export const NavBar = () => {
 
-  
-  const [titulo, setTitulo] = useState("")
-
-  const menuDropdown = (e) => {
+  const menuDropdown = () => {
     const toggler = document.getElementById("responsive-navbar-nav")
     toggler.classList.remove("show")
-    setTitulo(e.target.innerHTML)
   }
 
   return (
     <>
-      <Navbar id="navbar" className="container-fluid"  collapseOnSelect expand="xl">
+      <Navbar id="navbar" className="container-fluid"  collapseOnSelect >
         <Container>
-          <Navbar.Brand className="brand" onClick={()=> {setTitulo("HOME")}}>
+          <Navbar.Brand className="brand">
             <NavLink to="/">
               <img
                 alt=""
@@ -37,8 +32,7 @@ export const NavBar = () => {
               {" "}
             </NavLink>
           </Navbar.Brand>
-
-          {titulo !=="" && <TituloNavResponsive text={titulo}/>}
+            <TituloNavResponsive></TituloNavResponsive>
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse id="responsive-navbar-nav" >
             <Nav.Item>
