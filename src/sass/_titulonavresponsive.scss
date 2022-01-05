@@ -1,0 +1,23 @@
+.titulo-responsive-nav {
+    border: 3px solid $colorPrincipalRojo;
+    padding: 4px 8px 4px 8px;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+
+    .titulo-responsive-nav-text {
+        color: $colorSecundarioBlanco;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        text-orientation: initial;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        transform: skew(15deg);
+    }
+}

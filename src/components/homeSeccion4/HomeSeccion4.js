@@ -1,4 +1,4 @@
-import { Carousel, Row, Col, Image } from "react-bootstrap";
+import { Carousel, Row, Col} from "react-bootstrap";
 import ImgPartido from "./partido.jpg";
 import ImgEquipo from "./equipo.jpg";
 import ImgPileta from "./pileta.jpg";
@@ -30,17 +30,17 @@ export const HomeSeccion4 = () => {
             <span aria-hidden="true" className="next-icon" />
           }
         >
-          <Carousel.Item className="carousel-item">
-            <img className="d-block w-100" src={ImgClub} alt="First slide"/>
+          <Carousel.Item>
+            <img className="carousels4-img d-block w-100" src={ImgClub} alt="First slide"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100" src={ImgPartido} alt="Second slide"/>
+            <img className="carousels4-img d-block w-100" src={ImgPartido} alt="Second slide"/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100" src={ImgPileta} alt="Third slide" />
+            <img className="carousels4-img  d-block w-100" src={ImgPileta} alt="Third slide" />
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100" src={ImgEquipo} alt="fourth slide" />
+            <img className="carousels4-img d-block w-100" src={ImgEquipo} alt="fourth slide" />
           </Carousel.Item>
         </Carousel>
         <p id="direccion">Av. Rivadavia 1145, Tostado, Santa Fe</p>
