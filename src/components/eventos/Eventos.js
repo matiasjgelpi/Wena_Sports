@@ -47,15 +47,34 @@ const Eventos = () => {
         <Option value="8">Padel</Option>
         <Option value="16">Basketball</Option>
       </Select>
-      <Container>
+      <Container className="image-container">
         {" "}
         <Image
-          className="image-container"
+          className={
+            (visible === "4" && "image-desktop x4") ||
+            (visible === "8" && "image-desktop x8") ||
+            (visible === "16" && "image-desktop x16") ||
+            (visible === "32" && "image-desktop x32")
+          }
           src={
             (visible === "4" && fixture4desktop) ||
             (visible === "8" && fixture8desktop) ||
             (visible === "16" && fixture16desktop) ||
             (visible === "32" && fixture32desktop)
+          }
+        />
+        <Image
+          className={
+            (visible === "4" && "image-mobile x4") ||
+            (visible === "8" && "image-mobile x8") ||
+            (visible === "16" && "image-mobile x16") ||
+            (visible === "32" && "image-mobile x32")
+          }
+          src={
+            (visible === "4" && fixture4mobile) ||
+            (visible === "8" && fixture8mobile) ||
+            (visible === "16" && fixture16mobile) ||
+            (visible === "32" && fixture32mobile)
           }
         />
       </Container>
