@@ -1,35 +1,32 @@
 #paralelogramos-group {
-    position: relative;
-    margin-left: 18%;
-    margin-right: 11%;
-    margin-top: 100px;
-    bottom: 225px;
-    display: flex;
-    justify-content: space-between;
+  position: relative;
+  margin-left: 18%;
+  margin-right: 11%;
+  margin-top: 100px;
+  bottom: 225px;
+  display: flex;
+  justify-content: space-between;
+}
 
-
+@media only screen and (max-width: 1200px) {
+  #paralelogramos-group {
+    margin-left: 5%;
+  }
 }
 
 
 @media only screen and (max-width: 500px) {
-
-
-
-    
-    #paralelogramos-group {
-        margin-left: 8%;
-        margin-right: -15%;
-        margin-top: 55px;
-        bottom: 190px;
-        flex-wrap: nowrap;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        height: 100%;
-        z-index: 1;
-        width: 90%;    
-
-        
-
+  #paralelogramos-group {
+    margin-left: 8%;
+    margin-right: -15%;
+    margin-top: 55px;
+    bottom: 190px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100%;
+    z-index: 1;
+    width: 90%;
   }
 
   .elemento-paralelogramos-group {
@@ -38,5 +35,4 @@
     padding-left: 6%;
     width: 50%;
   }
-
 }

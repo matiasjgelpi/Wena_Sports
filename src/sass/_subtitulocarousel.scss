@@ -11,7 +11,7 @@
                 blue($colorPrincipalNegro),
                 0.4);
 
-      
+
 
         p {
             font-family: $font-principal;
@@ -31,12 +31,43 @@
     #pasion {
         width: 40%;
     }
-    
+
     #compromiso {
         width: 30%;
     }
 }
 
+
+@media only screen and (max-width: 1200px) {
+
+    #container-subtitulo {
+        .subtitulo {
+
+
+            p {
+                font-size: 40px;
+            }
+        }
+
+
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    #container-subtitulo {
+        .subtitulo {
+
+
+            p {
+                font-size: 26px;
+            }
+        }
+
+
+    }
+}
 
 @media only screen and (max-width: 500px) {
 
@@ -45,22 +76,22 @@
 
         margin-top: -350px;
         margin-left: 5%;
-    
+
         .subtitulo {
-   
-    
+
+
             p {
                 font-size: 26px;
                 margin-bottom: 5px;
                 height: 45px;
-         
+
             }
         }
 
         #pasion {
             width: 75%;
         }
-        
+
         #compromiso {
             width: 50%;
         }
