@@ -15,7 +15,7 @@ export default function Rutas() {
           <Route path="/category/:cat" exact element={<SectionContainer/>} />
         </Routes>
       </Router>{" "}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
