@@ -6,8 +6,30 @@
 #w {
     width: 882px;
     height: 665px;
-    background: url(./components/paralelogramosgroup/w.png);
+    background: url(./components/logofondocarousel/w.png);
     background-repeat: no-repeat;
     margin-top: -695px;
     margin-left: 86px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    #container-w {
+        position: relative;
+        opacity: 0.5;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #w {
+        background: url(./components/logofondocarousel/w-responsive.png);
+        background-repeat: no-repeat;
+        width: 450px;
+        height: 340px;
+        margin-left: 12px;
+        margin-top: -435px;
+    }
+
+
+
 }

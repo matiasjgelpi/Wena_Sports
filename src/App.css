@@ -338,8 +338,7 @@
   background-color: #222222;
   font-family: lemonMilk-light;
   height: 110px;
-  margin-bottom: 0;
-  padding-left: 13%;
+  padding: 0 20% 0 12%;
   width: 100%; }
   #navbar #logo-navbar {
     margin: 30px 120px 25px 0%;
@@ -349,17 +348,9 @@
     left: 80px;
     top: 79px; }
   #navbar .brand {
-    margin-right: 32%;
+    margin-right: 29%;
     display: flex;
     align-items: center; }
-  #navbar #buscar {
-    width: 14px;
-    height: 14px;
-    top: 8px;
-    bottom: 16px;
-    background-image: url(./components/navbar/lupa.png);
-    margin: 0 10% 0 2%;
-    background-repeat: no-repeat; }
   #navbar a {
     color: #f2f2f2;
     font-style: normal;
@@ -401,9 +392,9 @@
   background-color: #222222;
   font-family: poppins-light;
   height: 40px;
-  padding-left: 45%;
+  padding-left: 40%;
   padding-top: 4px;
-  padding-right: 20%;
+  padding-right: 13%;
   width: 100%; }
   #contact-bar #facebook {
     width: 8.5px;
@@ -491,12 +482,49 @@
     font-size: 20px;
     margin-bottom: 0px; }
 
+@media only screen and (max-width: 500px) {
+  #nombre-dato {
+    width: 120px;
+    height: 42.4px; }
+    #nombre-dato p {
+      font-size: 7px;
+      margin-bottom: 0px;
+      margin-left: 18px; }
+  #dato {
+    width: 97px;
+    height: 33px;
+    left: 65px;
+    bottom: 14px; }
+    #dato p {
+      font-size: 12px;
+      margin-bottom: 0px; } }
+
 #paralelogramos-group {
   position: relative;
   margin-left: 18%;
   margin-right: 11%;
   margin-top: 100px;
-  bottom: 225px; }
+  bottom: 225px;
+  display: flex;
+  justify-content: space-between; }
+
+@media only screen and (max-width: 500px) {
+  #paralelogramos-group {
+    margin-left: 8%;
+    margin-right: -15%;
+    margin-top: 55px;
+    bottom: 190px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100%;
+    z-index: 1;
+    width: 90%; }
+  .elemento-paralelogramos-group {
+    margin-right: 13%;
+    padding-top: 15%;
+    padding-left: 6%;
+    width: 50%; } }
 
 #container-subtitulo {
   position: relative;
@@ -518,6 +546,23 @@
       justify-content: center;
       align-items: center;
       opacity: 1; }
+  #container-subtitulo #pasion {
+    width: 40%; }
+  #container-subtitulo #compromiso {
+    width: 30%; }
+
+@media only screen and (max-width: 500px) {
+  #container-subtitulo {
+    margin-top: -350px;
+    margin-left: 5%; }
+    #container-subtitulo .subtitulo p {
+      font-size: 26px;
+      margin-bottom: 5px;
+      height: 45px; }
+    #container-subtitulo #pasion {
+      width: 75%; }
+    #container-subtitulo #compromiso {
+      width: 50%; } }
 
 #container-rectangulo {
   position: relative;
@@ -533,6 +578,11 @@
   background-color: #ff3d2d;
   opacity: 0.4; }
 
+@media only screen and (max-width: 500px) {
+  #rectangulo-rojo {
+    margin-top: -119px;
+    height: 119px; } }
+
 #container-w {
   position: relative;
   opacity: 0.5; }
@@ -540,10 +590,24 @@
 #w {
   width: 882px;
   height: 665px;
-  background: url(./components/paralelogramosgroup/w.png);
+  background: url(./components/logofondocarousel/w.png);
   background-repeat: no-repeat;
   margin-top: -695px;
   margin-left: 86px; }
+
+@media only screen and (max-width: 500px) {
+  #container-w {
+    position: relative;
+    opacity: 0.5;
+    width: fit-content;
+    height: fit-content; }
+  #w {
+    background: url(./components/logofondocarousel/w-responsive.png);
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 340px;
+    margin-left: 12px;
+    margin-top: -435px; } }
 
 .footer-container {
   font-family: poppins-light;
@@ -668,44 +732,78 @@
     padding-left: 15px;
     margin-top: 32px; }
 
+@media only screen and (max-width: 500px) {
+  #carousel-portada {
+    display: none; }
+  .home {
+    margin: 21% 0px 0px 0px;
+    padding: 0px 10% 115px 5%;
+    width: 100%; }
+    .home #col1 {
+      padding-top: 15%; }
+    .home #col2 {
+      padding-top: 8%;
+      padding-left: 20%; }
+    .home h3 {
+      font-size: 16px;
+      width: 100%; }
+    .home h4 {
+      font-size: 12px;
+      width: 70%px; }
+    .home p {
+      font-size: 12px;
+      width: 100%; } }
+
 .cobertura {
   background-color: rgba(255, 61, 45, 0.12);
-  padding: 30px 15% 28px 8%;
+  padding: 30px 12% 28px 8%;
   margin: 0;
   height: 440px; }
-  .cobertura .iconos {
-    height: 30px;
-    margin-bottom: 20px; }
-  .cobertura .medios-cobertura-container {
-    margin-top: 42px; }
-  .cobertura .texto-iconos {
-    font-family: poppins-light;
-    font-size: 16px;
-    color: #222222;
-    line-height: 24px;
-    display: inline;
-    font-weight: 500; }
-  .cobertura .titulo-iconos {
-    font-weight: bolder;
-    font-size: 18px;
-    line-height: 27px;
-    margin-bottom: 5px;
-    width: 250px; }
-  .cobertura #antena {
-    width: 35px;
-    background-image: url(./components/homeSeccion3/antena.png); }
-  .cobertura #instagram {
-    width: 30px;
-    background-image: url(./components/homeSeccion3/instagram.png); }
-  .cobertura #tiktok {
-    width: 26px;
-    background-image: url(./components/homeSeccion3/tiktok.png); }
-  .cobertura #facebook {
-    width: 17px;
-    background-image: url(./components/homeSeccion3/facebook.png); }
-  .cobertura #twitch {
-    width: 29px;
-    background-image: url(./components/homeSeccion3/twitch.png); }
+  .cobertura #medios {
+    display: flex;
+    justify-content: space-between; }
+    .cobertura #medios .medios-cobertura-container {
+      margin-top: 42px; }
+      .cobertura #medios .medios-cobertura-container .iconos {
+        height: 30px;
+        margin-bottom: 20px;
+        background-repeat: no-repeat;
+        width: 75%; }
+      .cobertura #medios .medios-cobertura-container .texto-iconos {
+        font-family: poppins-light;
+        font-size: 16px;
+        color: #222222;
+        line-height: 24px;
+        display: inline;
+        font-weight: 500; }
+      .cobertura #medios .medios-cobertura-container .titulo-iconos {
+        font-weight: bolder;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 5px;
+        width: 250px; }
+      .cobertura #medios .medios-cobertura-container #antena {
+        background-image: url(./components/homeSeccion3/antena.png); }
+      .cobertura #medios .medios-cobertura-container #instagram {
+        background-image: url(./components/homeSeccion3/instagram.png); }
+      .cobertura #medios .medios-cobertura-container #tiktok {
+        background-image: url(./components/homeSeccion3/tiktok.png); }
+      .cobertura #medios .medios-cobertura-container #facebook {
+        background-image: url(./components/homeSeccion3/facebook.png); }
+      .cobertura #medios .medios-cobertura-container #twitch {
+        background-image: url(./components/homeSeccion3/twitch.png); }
+
+@media only screen and (max-width: 500px) {
+  .cobertura #medios {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden; }
+    .cobertura #medios .medios-cobertura-container {
+      width: 50%; }
+      .cobertura #medios .medios-cobertura-container .texto-iconos {
+        font-size: 12px; }
+      .cobertura #medios .medios-cobertura-container .titulo-iconos {
+        font-size: 14px; } }
 
 .seccion4 {
   padding: 118px 18% 134px 8%;
@@ -738,6 +836,35 @@
   margin-bottom: 20px;
   width: 630px;
   height: 222px; }
+
+@media only screen and (max-width: 500px) {
+  .seccion4 {
+    padding: 0px 0% 0px 8%;
+    margin: 0;
+    height: 100%;
+    width: 100%; }
+    .seccion4 #col-titulo {
+      padding-top: 15%;
+      width: 100%;
+      height: 5%; }
+    .seccion4 h3 {
+      font-size: 16px;
+      width: 100%; }
+    .seccion4 h4 {
+      font-size: 12px;
+      width: 70%px; }
+    .seccion4 #col-carousel {
+      padding-top: 8%; }
+      .seccion4 #col-carousel p {
+        padding-left: 15%; }
+      .seccion4 #col-carousel .carousel-s4 {
+        width: 100%;
+        height: 45%;
+        margin: auto; }
+      .seccion4 #col-carousel #direccion {
+        padding-top: 3%;
+        padding-left: 1%;
+        font-size: 12px; } }
 
 .titulo-responsive-nav {
   display: none;
@@ -800,14 +927,18 @@
       transform: skew(0); } }
 
 .home-responsive-container {
-  margin: 14.5% 0px 0px 0px;
-  display: flex;
-  max-width: 500px;
-  width: 100%;
-  height: 814px; }
-  .home-responsive-container img {
+  display: none; }
+
+@media only screen and (max-width: 500px) {
+  .home-responsive-container {
+    margin: 12% 0px 0px 0px;
+    display: flex;
+    max-width: 500px;
     width: 100%;
-    object-fit: cover; }
+    height: 814px; }
+    .home-responsive-container img {
+      width: 100%;
+      object-fit: cover; } }
 
 body {
   background-color: #f2f2f2; }

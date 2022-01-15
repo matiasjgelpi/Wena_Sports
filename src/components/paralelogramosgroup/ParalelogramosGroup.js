@@ -4,33 +4,29 @@ import { Paralelogramos } from "../paralelogramos/Paralelogramos";
 export const ParalelogramosGroup = () => {
   return (
     <>
-      <Row
-        id="paralelogramos-group"
-        lg="5"
-        className="justify-content-around align-items-center"
-      >
-        <Col>
+      <Row id="paralelogramos-group">
+        <Col className="elemento-paralelogramos-group">
           <Paralelogramos
             categoria={"FECHA"}
             dato={"22/11"}
             color_cuadro={"#adf0d1"}
           />
         </Col>
-        <Col>
+        <Col className="elemento-paralelogramos-group">
           <Paralelogramos
             categoria={"TORNEOS"}
             dato={"5"}
             color_cuadro={"#f2f2f2"}
           />
         </Col>
-        <Col>
+        <Col className="elemento-paralelogramos-group">
           <Paralelogramos
             categoria={"INSCRIPTOS"}
             dato={"160"}
             color_cuadro={"#ffff33"}
           />
         </Col>
-        <Col>
+        <Col className="elemento-paralelogramos-group">
           <Paralelogramos
             categoria={"DEPORTES"}
             dato={"4"}

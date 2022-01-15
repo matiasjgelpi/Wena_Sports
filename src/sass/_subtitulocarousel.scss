@@ -11,6 +11,8 @@
                 blue($colorPrincipalNegro),
                 0.4);
 
+      
+
         p {
             font-family: $font-principal;
             color: $colorSecundarioBlanco;
@@ -25,4 +27,43 @@
             opacity: 1;
         }
     }
+
+    #pasion {
+        width: 40%;
+    }
+    
+    #compromiso {
+        width: 30%;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+
+    #container-subtitulo {
+
+        margin-top: -350px;
+        margin-left: 5%;
+    
+        .subtitulo {
+   
+    
+            p {
+                font-size: 26px;
+                margin-bottom: 5px;
+                height: 45px;
+         
+            }
+        }
+
+        #pasion {
+            width: 75%;
+        }
+        
+        #compromiso {
+            width: 50%;
+        }
+    }
+
 }

@@ -36,3 +36,48 @@
   width: 630px;
   height: 222px;
 }
+
+@media only screen and (max-width: 500px) {
+  .seccion4 {
+    padding: 0px 0% 0px 8%;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+    #col-titulo {
+      padding-top: 15%;
+      width: 100%;
+      height: 5%;
+    }
+
+    h3 {
+      font-size: 16px;
+      width: 100%;
+    }
+
+    h4 {
+      font-size: 12px;
+      width: 70%px;
+    }
+
+    #col-carousel {
+      padding-top: 8%;
+
+      p {
+        padding-left: 15%;
+      }
+
+      .carousel-s4 {
+        width: 100%;
+        height: 45%;
+        margin: auto;
+      }
+
+      #direccion {
+        padding-top: 3%;
+        padding-left: 1%;
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -71,3 +71,43 @@
     }
 }
 
+
+@media only screen and (max-width: 500px) {
+    #carousel-portada {
+        display: none;
+    }
+
+
+    .home {
+        margin: 21% 0px 0px 0px;
+        padding: 0px 10% 115px 5%;
+        width: 100%;
+
+        #col1 {
+            padding-top: 15%;
+
+        }
+
+        #col2 {
+            padding-top: 8%;
+            padding-left: 20%;
+        }
+
+        h3 {
+            font-size: 16px;
+            width: 100%;
+
+        }
+
+        h4 {
+            font-size: 12px;
+            width: 70%px;
+        }
+
+        p {
+            font-size: 12px;
+            width: 100%;
+        }
+    }
+}
+

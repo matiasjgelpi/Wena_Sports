@@ -6,8 +6,7 @@
   background-color: $colorPrincipalNegro;
   font-family: $font-subtitulos;
   height: 110px;
-  margin-bottom: 0;
-  padding-left: 13%;
+  padding:0 20% 0 12%;
   width: 100%;
 
   #logo-navbar {
@@ -20,22 +19,22 @@
   }
 
   .brand {
-    margin-right: 32%;
+    margin-right: 29%;
 
     // AGREGUE ESTO ---------------->
     display: flex;
     align-items: center;
   }
 
-  #buscar {
-    width: 14px;
-    height: 14px;
-    top: 8px;
-    bottom: 16px;
-    background-image: url(./components/navbar/lupa.png);
-    margin: 0 10% 0 2%;
-    background-repeat: no-repeat;
-  }
+  // #buscar {
+  //   width: 14px;
+  //   height: 14px;
+  //   top: 8px;
+  //   bottom: 16px;
+  //   background-image: url(./components/navbar/lupa.png);
+  //   margin: 0 8% 0 1%;
+  //   background-repeat: no-repeat;
+  // }
 
   a {
     color: $colorSecundarioBlanco;

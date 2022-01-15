@@ -1,14 +1,26 @@
-.home-responsive-container{
-    margin: 14.5% 0px 0px 0px;
-    display: flex;
-    max-width: 500px;
-    width: 100%;
-    height: 814px;
+.home-responsive-container {
+    display: none;
+}
 
-    img {
+@media only screen and (max-width: 500px) {
+
+    .home-responsive-container {
+        margin: 12% 0px 0px 0px;
+        display: flex;
+        max-width: 500px;
         width: 100%;
-        object-fit: cover;
-
-
+        height: 814px;
+    
+        img {
+            width: 100%;
+            object-fit: cover;
+    
+    
+        }
     }
+
+
+
+
+
 }
