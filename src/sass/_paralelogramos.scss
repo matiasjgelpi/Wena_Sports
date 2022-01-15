@@ -48,3 +48,31 @@
   }
 }
 
+@media only screen and (max-width: 500px) {
+
+  #nombre-dato {
+    width: 120px;
+    height: 42.4px;
+  
+
+  
+    p {
+      font-size: 7px;
+      margin-bottom: 0px;
+      margin-left: 18px;
+    }
+  }
+  
+  #dato {
+    width: 97px;
+    height: 33px;
+    left: 65px;
+    bottom: 14px;
+ 
+  
+    p {
+      font-size: 12px;
+      margin-bottom: 0px;
+    }
+  }
+}

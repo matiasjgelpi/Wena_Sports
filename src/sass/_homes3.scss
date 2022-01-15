@@ -1,68 +1,88 @@
 .cobertura {
-    background-color: rgba(red($colorPrincipalRojo),
-            green($colorPrincipalRojo),
-            blue($colorPrincipalRojo),
-            0.12);
-    padding: 30px 15% 28px 8%;
-    margin: 0;
-    height: 440px;
+  background-color: rgba(
+    red($colorPrincipalRojo),
+    green($colorPrincipalRojo),
+    blue($colorPrincipalRojo),
+    0.12
+  );
+  padding: 30px 12% 28px 8%;
+  margin: 0;
+  height: 440px;
 
-                  
-
-
-    .iconos {
-        height: 30px;
-        margin-bottom: 20px;
-    }
+  #medios {
+    display: flex;
+    justify-content: space-between;
 
     .medios-cobertura-container {
-        margin-top: 42px;
+      margin-top: 42px;
 
+      .iconos {
+        height: 30px;
+        margin-bottom: 20px;
+        background-repeat: no-repeat;
+        width: 75%;
+      }
 
-    }
-
-    .texto-iconos {
+      .texto-iconos {
         font-family: $font-textos;
         font-size: 16px;
         color: $colorPrincipalNegro;
         line-height: 24px;
         display: inline;
         font-weight: 500;
-       
-    }
+      }
 
-    .titulo-iconos {
+      .titulo-iconos {
         font-weight: bolder;
         font-size: 18px;
         line-height: 27px;
         margin-bottom: 5px;
         width: 250px;
-    }
+      }
 
-
-    #antena {
-        width: 35px;
+      #antena {
         background-image: url(./components/homeSeccion3/antena.png);
-    }
+      }
 
-    #instagram {
-        width: 30px;
+      #instagram {
         background-image: url(./components/homeSeccion3/instagram.png);
-    }
+      }
 
-    #tiktok {
-        width: 26px;
+      #tiktok {
         background-image: url(./components/homeSeccion3/tiktok.png);
-    }
+      }
 
-    #facebook {
-        width: 17px;
+      #facebook {
         background-image: url(./components/homeSeccion3/facebook.png);
-    }
+      }
 
-    #twitch {
-        width: 29px;
+      #twitch {
         background-image: url(./components/homeSeccion3/twitch.png);
+      }
     }
+  }
+}
 
+@media only screen and (max-width: 500px) {
+  .cobertura {
+      
+    #medios {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      overflow-y: hidden;
+    
+
+      .medios-cobertura-container {
+        width: 50%;
+
+        .texto-iconos {
+          font-size: 12px;
+        }
+
+        .titulo-iconos {
+          font-size: 14px;
+        }
+      }
+    }
+  }
 }

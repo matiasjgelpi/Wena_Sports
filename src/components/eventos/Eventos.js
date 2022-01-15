@@ -12,7 +12,10 @@ import Button from "../primitives/Button";
 import Form from "../primitives/Form";
 import Select from "../primitives/Select";
 import Option from "../primitives/Option";
+<<<<<<< HEAD
 
+=======
+>>>>>>> primera_version_funcional
 import Image from "../primitives/Img";
 
 import fixture4desktop from "./fixtures/desktop_fixturex4.png";

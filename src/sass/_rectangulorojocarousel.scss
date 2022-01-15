@@ -13,3 +13,14 @@
     background-color: $colorPrincipalRojo;
     opacity: 0.4;
 }
+
+
+@media only screen and (max-width: 500px) {
+
+
+    #rectangulo-rojo {
+        margin-top: -119px;
+        height: 119px;
+
+    }
+}

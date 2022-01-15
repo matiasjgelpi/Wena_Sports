@@ -6,7 +6,7 @@
   background-color: $colorPrincipalNegro;
   font-family: $font-subtitulos;
   height: 110px;
-  margin-bottom: 0;
+  padding:0 20% 0 12%;
   width: 100%;
 
   #logo-navbar {
@@ -19,21 +19,22 @@
   }
 
   .brand {
-    margin-right: 32%;
+    margin-right: 29%;
 
     // AGREGUE ESTO ---------------->
     display: flex;
     align-items: center;
   }
 
-  #buscar {
-    width: 14px;
-    height: 14px;
-    top: 8px;
-    bottom: 16px;
-    background-image: url(./components/navbar/lupa.png);
-    margin: 0 0 0 4%;
-  }
+  // #buscar {
+  //   width: 14px;
+  //   height: 14px;
+  //   top: 8px;
+  //   bottom: 16px;
+  //   background-image: url(./components/navbar/lupa.png);
+  //   margin: 0 8% 0 1%;
+  //   background-repeat: no-repeat;
+  // }
 
   a {
     color: $colorSecundarioBlanco;
@@ -53,6 +54,7 @@
     -ms-transform: skew(-15deg);
     -o-transform: skew(-15deg);
     transform: skew(-15deg);
+    
 
     .link-text {
       margin-bottom: 0;
@@ -72,61 +74,21 @@
 }
 
 .navbar-light {
+
   .navbar-toggler {
     border-color: $colorPrincipalNegro;
+    margin-right: 11%;
   }
-
-
-
-
 
   .navbar-toggler-icon {
     background-image: url(./components/navbar/menu-responsive.png);
 }
 }
 
-@media only screen and (max-width: 1200px) {
-  #logo-navbar {
-    display: none;
-  }
-
-  #logo-responsive {
-    display: flex;
-    width: 47px;
-    height: 42px;
-    margin: 30px 120px 25px 0%;
-
-  }
-
-  #navbar {
-
-    #buscar {
-    display: none;
-    }
-
-    a{
-      background-color: $colorPrincipalNegro;
-    }
-
-    .link:focus {
-      border: none;
-    }
-
-    .link {
-      border:none;
-      padding: 4px 8px 4px 8px;
-      transform: skew(0);
-  
-      .link-text {
-        margin-bottom: 0;
-        display: flex;
-        justify-content: center;
-        transform: skew(0);
-      }
-    }
-  
-
-  }
+#responsive-navbar-nav{
+justify-content: center;
 
 }
+
+
 

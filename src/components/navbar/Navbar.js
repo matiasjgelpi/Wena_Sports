@@ -1,70 +1,86 @@
-
-import {useState} from "react"
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { useState } from "react";
+import { Navbar, Container, Nav, Row, Col} from "react-bootstrap";
 import LogoNavbar from "./logo-navbar.png";
 import LogoResponsive from "./logo-responsive.png";
 import { NavLink} from "react-router-dom";
 import { TituloNavResponsive } from "../titulonavresponsive/TituloNavResponsive";
 
-
-
 export const NavBar = () => {
-
-  const [titulo, setTitulo] = useState("")
+  const [titulo, setTitulo] = useState("");
 
 
   const menuDropdown = (e) => {
-    const toggler = document.getElementById("responsive-navbar-nav")
-    toggler.classList.remove("show")
-    setTitulo(e.target.innerHTML)
-
-  }
+    const toggler = document.getElementById("responsive-navbar-nav");
+    toggler.classList.remove("show");
+    setTitulo(e.target.innerHTML);
+  };
 
   return (
     <>
-      <Navbar id="navbar" className="container-fluid"  collapseOnSelect expand="xl">
-        <Container>
-          <Navbar.Brand className="brand" onClick={()=> {setTitulo("HOME")}}>
-            <NavLink to="/">
-              <img
-                alt="Home"
-                src={LogoNavbar}
-                id="logo-navbar"
-                className="align-top"
-              />
+      <Nav justify>
+        <Navbar
+          id="navbar"
+          className="container-fluid"
+          collapseOnSelect
+          expand="xl"
+        >
+          {/* <Container> */}
+            <Navbar.Brand
+              className="brand"
+              onClick={() => {
+                setTitulo("HOME");
+              }}
+            >
+              <NavLink to="/">
                 <img
-                alt="Home"
-                src={LogoResponsive}
-                id="logo-responsive"
-                className="align-top"
-              />
-              {" "}
-            </NavLink>
-          </Navbar.Brand> 
-          <TituloNavResponsive text={titulo}/>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-          <Navbar.Collapse id="responsive-navbar-nav" >
-            <Nav.Item>
-              <NavLink to="/category/eventos" className="nav-link link" onClick={menuDropdown}>
-                <p className="link-text">EVENTOS</p>
+                  alt=""
+                  src={LogoNavbar}
+                  id="logo-navbar"
+                  className="align-top"
+                />
+                <img
+                  alt=""
+                  src={LogoResponsive}
+                  id="logo-responsive"
+                  className="align-top"
+                />{" "}
               </NavLink>
-            </Nav.Item>
-            <Nav.Item>
-              <NavLink to="/category/nosotros" className="nav-link link" onClick={menuDropdown}>
-                <p className="link-text">NOSOTROS</p>
-              </NavLink>
-            </Nav.Item>
-            <Nav.Item>
-              <NavLink to="/category/info" className="nav-link link" onClick={menuDropdown}>
-                <p className="link-text">INFORMACIÓN ÚTIL</p>
-              </NavLink>
-            </Nav.Item>
-          </Navbar.Collapse>
-          <Nav.Item id="buscar">
-              <NavLink to="/category/buscar" className="nav-link" />
-            </Nav.Item>
-        </Container>
-      </Navbar>
+            </Navbar.Brand>
+
+            {titulo !== "" && <TituloNavResponsive text={titulo} />}
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav.Item>
+                <NavLink
+                  to="/category/eventos"
+                  className="nav-link link"
+                  onClick={menuDropdown}
+                >
+                  <p className="link-text">EVENTOS</p>
+                </NavLink>
+              </Nav.Item>
+              <Nav.Item>
+                <NavLink
+                  to="/category/nosotros"
+                  className="nav-link link"
+                  onClick={menuDropdown}
+                >
+                  <p className="link-text">NOSOTROS</p>
+                </NavLink>
+              </Nav.Item>
+              <Nav.Item>
+                <NavLink
+                  to="/category/info"
+                  className="nav-link link"
+                  onClick={menuDropdown}
+                >
+                  <p className="link-text">INFORMACIÓN ÚTIL</p>
+                </NavLink>
+              </Nav.Item>
+            </Navbar.Collapse>
+          {/* </Container> */}
+        </Navbar>
+      </Nav>
     </>
   );
 };
