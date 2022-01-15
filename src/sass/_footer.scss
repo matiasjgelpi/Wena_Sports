@@ -10,7 +10,6 @@
 
   width: 100%;
 
-
   margin: 0 auto;
 
   .description-container {
@@ -22,6 +21,25 @@
       line-height: 25px;
       color: $colorSecundarioBlanco;
       margin-top: 30px;
+
+      span {
+        @media (max-width: 993px) {
+          display: none;
+        }
+      }
+    }
+
+    .year {
+      color: $colorSecundarioBlanco;
+      font-size: 12px;
+    }
+
+    @media (max-width: 1200px) {
+      width: 40%;
+    }
+
+    @media (max-width: 993px) {
+      width: 40%;
     }
   }
   .newsletter-container {
@@ -64,7 +82,7 @@
     }
 
     button {
-      width: 70%;
+      width: 75%;
       height: 50px;
       left: 730px;
       top: 3010px;
@@ -80,6 +98,9 @@
       color: $colorSecundarioVerde;
       padding-left: 15px;
       transform: initial;
+    }
+    @media (max-width: 1200px) {
+      width: 40%;
     }
   }
 }

@@ -10,7 +10,7 @@ import Input from "../primitives/Input";
 import Button from "../primitives/Button";
 
 export const Footer = () => {
-
+  const yearCopyright = new Date().getFullYear();
   return (
     <Container
       as="footer"
@@ -21,9 +21,13 @@ export const Footer = () => {
         <Image src={logoFooter} alt="" />
         <Text>
           Somos SION, una productora enfocada en la organización de eventos
-          deportivos, donde buscamos fomentar el deporte en la sociedad, por
-          medio de nuestros valores: pasión, respeto y compromiso.
+          deportivos
+          <Span>
+            , donde buscamos fomentar el deporte en la sociedad, por medio de
+            nuestros valores: pasión, respeto y compromiso.
+          </Span>
         </Text>
+        <Span className="year"> © {yearCopyright} - Folklore del Norte </Span>
       </Container>
       <Container className="newsletter-container">
         <Heading level="3" className="title">

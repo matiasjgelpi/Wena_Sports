@@ -7,7 +7,6 @@
   margin: 150px auto;
   margin-bottom: 0px;
 
-
   .section-info {
     display: flex;
     flex-direction: column;
@@ -30,6 +29,10 @@
       top: 360px;
       background: $colorSecundarioAmarillo;
       transform: skew(-25deg);
+    }
+
+    @media (max-width: 730px) {
+      margin-left: 26px;
     }
   }
 }
