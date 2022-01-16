@@ -413,14 +413,14 @@
         padding-left: 26px; } }
 
 .navbar {
-  border-radius: 0px; }
+  border-radius: 0px;
+  width: 100%; }
 
 #navbar {
   background-color: #222222;
   font-family: lemonMilk-light;
   height: 110px;
-  padding: 0 20% 0 12%;
-  width: 100%; }
+  padding: 0 20% 0 12%; }
   #navbar #logo-navbar {
     margin: 30px 120px 25px 0%;
     padding: 0;
