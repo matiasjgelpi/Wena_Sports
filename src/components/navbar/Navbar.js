@@ -19,7 +19,7 @@ export const NavBar = () => {
       <Nav justify>
         <Navbar
           id="navbar"
-          className="container-fluid"
+          className="container-fluid fixed-top"
           collapseOnSelect
           expand="xl"
         >
