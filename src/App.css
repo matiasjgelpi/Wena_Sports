@@ -412,15 +412,6 @@
       .eventos-container .form-container {
         padding-left: 26px; } }
 
-.header {
-  position: fixed;
-  right: 0;
-  left: -2.4%;
-  top: 0;
-  width: 100%;
-  max-width: inherit;
-  z-index: 1; }
-
 .navbar {
   border-radius: 0px; }
 
