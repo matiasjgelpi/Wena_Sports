@@ -4,7 +4,7 @@ import { ContactBar } from "../contactbar/ContactBar";
 
 export const Header = () => {
   return (
-    <div className="fixed-top">
+    <div className="header">
       <ContactBar />
       <NavBar />
     </div>

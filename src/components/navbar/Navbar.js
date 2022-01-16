@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav} from "react-bootstrap";
 import LogoNavbar from "./logo-navbar.png";
 import LogoResponsive from "./logo-responsive.png";
 import { NavLink } from "react-router-dom";
@@ -19,7 +19,7 @@ export const NavBar = () => {
       <Nav justify>
         <Navbar
           id="navbar"
-          className="container-fluid fixed-top"
+          className=""
           collapseOnSelect
           expand="xl"
         >
@@ -76,7 +76,9 @@ export const NavBar = () => {
               </NavLink>
             </Nav.Item>
           </Navbar.Collapse>
+         
         </Navbar>
+
       </Nav>
     </>
   );

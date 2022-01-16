@@ -412,6 +412,15 @@
       .eventos-container .form-container {
         padding-left: 26px; } }
 
+.header {
+  position: fixed;
+  right: 0;
+  left: -2.4%;
+  top: 0;
+  width: 100%;
+  max-width: inherit;
+  z-index: 1; }
+
 .navbar {
   border-radius: 0px; }
 
@@ -420,8 +429,7 @@
   font-family: lemonMilk-light;
   height: 110px;
   padding: 0 20% 0 12%;
-  width: 100%;
-  margin-top: 40px; }
+  width: 100%; }
   #navbar #logo-navbar {
     margin: 30px 120px 25px 0%;
     padding: 0;
@@ -1010,7 +1018,6 @@
 
 @media only screen and (max-width: 1466px) {
   #navbar {
-    margin-top: 40px;
     padding: 0 12% 0 2%; } }
 
 @media only screen and (max-width: 1200px) {
@@ -1048,6 +1055,10 @@
         justify-content: center;
         align-items: center;
         transform: skew(0); } }
+
+@media only screen and (max-width: 500px) {
+  #navbar {
+    padding: 0 10% 0 6%; } }
 
 .home-responsive-container {
   display: none; }

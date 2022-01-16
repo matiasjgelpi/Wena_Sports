@@ -1,3 +1,15 @@
+
+.header {
+  position: fixed;
+  right: 0;
+  left: -2.4%;
+  top: 0;
+  width: 100%;
+  max-width: inherit;
+  z-index: 1;
+}
+
+
 .navbar {
   border-radius: 0px;
 }
@@ -8,7 +20,6 @@
   height: 110px;
   padding:0 20% 0 12%;
   width: 100%;
-  margin-top: 40px;
 
   #logo-navbar {
     margin: 30px 120px 25px 0%;
