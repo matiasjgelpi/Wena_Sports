@@ -1,6 +1,7 @@
 .eventos-container {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 
   h3 {
     margin-left: 69px;
@@ -192,7 +193,7 @@
       }
 
       @media (max-width: 993px) {
-        margin-left: 220px;
+        margin-left: 190px;
         margin-right: 0;
         width: 43%;
       }
