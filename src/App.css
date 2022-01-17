@@ -410,7 +410,7 @@
             width: 200px; } }
       @media (max-width: 993px) {
         .eventos-container .form-container .form {
-          margin-left: 220px;
+          margin-left: 190px;
           margin-right: 0;
           width: 43%; } }
     @media (max-width: 730px) {
