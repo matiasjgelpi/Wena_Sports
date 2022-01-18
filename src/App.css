@@ -601,7 +601,7 @@
   margin-left: 18%;
   margin-right: 11%;
   margin-top: 100px;
-  bottom: 225px;
+  bottom: 310px;
   display: flex;
   justify-content: space-between; }
 
@@ -630,7 +630,7 @@
 #container-subtitulo {
   position: relative;
   display: block;
-  margin-top: -500px;
+  margin-top: -525px;
   margin-left: 5%; }
   #container-subtitulo .subtitulo {
     transform: skew(-20deg);
@@ -681,9 +681,9 @@
   position: absolute;
   width: 100%;
   margin-bottom: 0px;
-  margin-top: -250px;
+  margin-top: -300px;
   padding: 0;
-  height: 250px;
+  height: 300px;
   background-color: #ff3d2d;
   opacity: 0.4; }
 
