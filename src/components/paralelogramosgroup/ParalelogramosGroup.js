@@ -1,4 +1,4 @@
-import { Row, Col } from "react-bootstrap";
+import {Col } from "react-bootstrap";
 import { Paralelogramos } from "../paralelogramos/Paralelogramos";
 
 export const ParalelogramosGroup = () => {

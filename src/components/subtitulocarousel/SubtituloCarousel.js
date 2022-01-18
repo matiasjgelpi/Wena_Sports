@@ -1,4 +1,4 @@
-import { Row } from "react-bootstrap";
+// import { Row } from "react-bootstrap";
 
 export const SubtituloCarousel = () => {
   return (

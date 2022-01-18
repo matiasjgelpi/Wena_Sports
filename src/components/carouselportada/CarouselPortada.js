@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Row } from "react-bootstrap";
+import { Carousel} from "react-bootstrap";
 import Leonas from "./leonas.jpg";
 import Rugby from "./rugby.jpg";
 import Basket from "./basket.jpg";
