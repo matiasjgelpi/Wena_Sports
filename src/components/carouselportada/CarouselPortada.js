@@ -6,7 +6,7 @@ import Basket from "./basket.jpg";
 
 export const CarouselPortada = () => {
   return (
-    <Row id="carousel-portada">
+    <Row id="carousel-portada" className="no-gutters">
       <Carousel
         indicators=""
         prevIcon={
