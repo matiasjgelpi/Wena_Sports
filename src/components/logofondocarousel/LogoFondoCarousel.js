@@ -1,4 +1,3 @@
-// import {Row} from "react-bootstrap";
 
 export const LogoFondoCarousel = () => {
     return (
