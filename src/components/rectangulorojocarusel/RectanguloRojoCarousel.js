@@ -2,8 +2,8 @@ import { Row } from "react-bootstrap";
 
 export const RectanguloRojoCarousel = () => {
   return (
-    <Row id="container-rectangulo">
+    <div id="container-rectangulo" className="no-gutters">
       <div id="rectangulo-rojo" />
-    </Row>
+    </div>
   );
 };

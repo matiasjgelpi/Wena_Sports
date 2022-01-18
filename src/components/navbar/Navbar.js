@@ -16,7 +16,7 @@ export const NavBar = () => {
 
   return (
     <>
-      <Nav justify>
+      <Nav justify className="no-gutters">
         <Navbar
           id="navbar"
           className=""

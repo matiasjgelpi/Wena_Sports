@@ -4,7 +4,7 @@ import { Paralelogramos } from "../paralelogramos/Paralelogramos";
 export const ParalelogramosGroup = () => {
   return (
     <>
-      <Row id="paralelogramos-group">
+      <div id="paralelogramos-group" className="no-gutters">
         <Col className="elemento-paralelogramos-group">
           <Paralelogramos
             categoria={"FECHA"}
@@ -33,7 +33,7 @@ export const ParalelogramosGroup = () => {
             color_cuadro={"#ff3d2d"}
           />
         </Col>
-      </Row>
+      </div>
     </>
   );
 };

@@ -2,8 +2,8 @@ import {Row} from "react-bootstrap";
 
 export const LogoFondoCarousel = () => {
     return (
-        <Row id="container-w">
+        <div id="container-w" className="no-gutters">
         <div id="w"></div>
-      </Row>
+      </div>
     )
 }

@@ -6,8 +6,9 @@ import Basket from "./basket.jpg";
 
 export const CarouselPortada = () => {
   return (
-    <Row id="carousel-portada" className="no-gutters">
+    <div id="carousel-portada" className="no-gutters">
       <Carousel
+        id="carousel-portada"
         indicators=""
         prevIcon={
           <span aria-hidden="true" className="carousel-control-prev-icon" />
@@ -26,6 +27,6 @@ export const CarouselPortada = () => {
           <img className="d-block w-100" src={Leonas} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
-    </Row>
+    </div>
   );
 };

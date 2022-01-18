@@ -518,6 +518,9 @@
   #contact-bar {
     display: none; } }
 
+#carousel-portada {
+  grid-row-gap: 0; }
+
 .carousel-control-prev-icon {
   background-image: url(./components/carouselportada/prev.png);
   width: 17px;
@@ -800,7 +803,7 @@
   padding: 0; }
 
 .home {
-  margin: 12.1% 0px 0px 0px;
+  margin: 11% 0px 0px 0px;
   padding: 0px 22% 115px 8%;
   background-color: #E5E5E5; }
   .home .rectangulo-amarillo {
@@ -855,8 +858,8 @@
   #carousel-portada {
     display: none; }
   .home {
-    margin: 21% 0px 0px 0px;
-    padding: 0px 10% 115px 5%;
+    margin: 0 0px 0px 0px;
+    padding: 30% 10% 115px 5%;
     width: 100%; }
     .home #col1 {
       padding-top: 15%; }
