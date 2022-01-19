@@ -27,7 +27,7 @@ export const Footer = () => {
             nuestros valores: pasión, respeto y compromiso.
           </Span>
         </Text>
-        <Span className="year"> © {yearCopyright} - Folklore del Norte </Span>
+        <Span className="year"> © {yearCopyright} </Span>
       </Container>
       <Container className="newsletter-container">
         <Heading level="3" className="title">

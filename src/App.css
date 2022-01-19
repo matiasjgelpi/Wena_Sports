@@ -32,7 +32,7 @@
       font-size: 48px;
       line-height: 65px; }
     .section-container .section-info .section-span {
-      margin-top: 100px;
+      margin: 85px 0 40px 7px;
       width: 28px;
       height: 10px;
       left: 80px;
@@ -254,6 +254,14 @@
   display: flex;
   flex-direction: column;
   overflow: hidden; }
+  .eventos-container h5 {
+    font-family: lemonMilk-light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ff3d2d;
+    margin: 35px 0 0 69px; }
   .eventos-container h3 {
     margin-left: 69px;
     width: 500px;
@@ -293,10 +301,8 @@
         margin-left: 26px; } }
   .eventos-container .image-container {
     margin: 60px 69px 60px 69px; }
-    .eventos-container .image-container .image-desktop.x8 {
-      width: 60%; }
     .eventos-container .image-container .image-desktop.x16 {
-      width: 85%; }
+      width: 100%; }
     .eventos-container .image-container .image-desktop.x32 {
       width: 100%; }
     @media (max-width: 993px) {

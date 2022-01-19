@@ -43,6 +43,7 @@ const Eventos = () => {
         <Option value="8">Padel</Option>
         <Option value="16">Basketball</Option>
       </Select>
+      <Heading level="5">PRÓXIMAMENTE</Heading>
       <Container className="image-container">
         {" "}
         <Image
