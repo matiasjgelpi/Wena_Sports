@@ -661,6 +661,18 @@
   #container-subtitulo .subtitulo p {
     font-size: 40px; } }
 
+@media only screen and (max-width: 1640px) {
+  #container-subtitulo #pasion {
+    width: 38%; }
+  #container-subtitulo #compromiso {
+    width: 33%; } }
+
+@media only screen and (max-width: 1320px) {
+  #container-subtitulo #pasion {
+    width: 44%; }
+  #container-subtitulo #compromiso {
+    width: 38%; } }
+
 @media only screen and (max-width: 1200px) {
   #container-subtitulo .subtitulo p {
     font-size: 26px; } }
