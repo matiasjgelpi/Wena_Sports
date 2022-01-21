@@ -34,31 +34,31 @@ const Nosotros = () => {
       <Container class="slider">
         <Container class="slide-track">
           <Container class="slide">
-            <Image src={canterbury} height="65px" width="150px" alt="" />
+            <Image src={canterbury} width="50%" alt="" />
           </Container>
           <Container class="slide">
-            <Image src={cat} height="65px" width="150px" alt="" />
+            <Image src={cat} width="30%" alt="" />
           </Container>
           <Container class="slide">
-            <Image src={deva} height="65px" width="150px" alt="" />
+            <Image src={deva} width="50%" alt="" />
           </Container>
           <Container class="slide">
-            <Image src={gilbert} height="65px" width="150px" alt="" />
+            <Image src={gilbert} width="50%" alt="" />
           </Container>
           <Container class="slide">
-            <Image src={imperial} height="65px" width="150px" alt="" />
+            <Image src={imperial} width="50%" alt="" />
           </Container>
           <Container class="slide">
-            <Image src={paty} height="65px" width="150px" alt="" />
+            <Image src={paty} width="50%" alt="" />
           </Container>
           <Container class="slide">
-            <Image src={powerade} height="65px" width="150px" alt="" />
+            <Image src={powerade} width="50%" alt="" />
           </Container>
           <Container class="slide">
-            <Image src={sancor} height="65px" width="150px" alt="" />
+            <Image src={sancor} width="50%" alt="" />
           </Container>
           <Container class="slide">
-            <Image src={tcl} height="65px" width="150px" alt="" />
+            <Image src={tcl} width="50%" alt="" />
           </Container>
         </Container>
       </Container>
