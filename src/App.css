@@ -594,7 +594,7 @@
   #dato {
     width: 97px;
     height: 33px;
-    left: 65px;
+    left: 58px;
     bottom: 14px; }
     #dato p {
       font-size: 12px;
@@ -615,7 +615,7 @@
 
 @media only screen and (max-width: 500px) {
   #paralelogramos-group {
-    margin-left: 8%;
+    margin-left: 5%;
     margin-right: -15%;
     margin-top: 55px;
     bottom: 190px;
@@ -627,6 +627,7 @@
     width: 90%; }
   .elemento-paralelogramos-group {
     margin-right: 13%;
+    margin-left: 6%;
     padding-top: 15%;
     padding-left: 6%;
     width: 50%; } }
@@ -809,7 +810,8 @@
 #home-container {
   position: relative;
   width: 100%;
-  padding: 0; }
+  padding: 0;
+  overflow: hidden; }
 
 .home {
   margin: 9% 0px 0px 0px;
