@@ -7,7 +7,7 @@ export const HomeSeccion3 = () => {
         <div className="rectangulo-amarillo"></div>
         <h3>COBERTURA</h3>
         <h4>
-          SEGUÍ EN EVENTO EN LO MEDIOS Y
+          SEGUÍ EL EVENTO EN LO MEDIOS Y
           <br /> REDES SOCIALES
         </h4>
       </Col>

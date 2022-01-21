@@ -8,7 +8,7 @@ export const ParalelogramosGroup = () => {
         <Col className="elemento-paralelogramos-group">
           <Paralelogramos
             categoria={"FECHA"}
-            dato={"22/11"}
+            dato={"21/11"}
             color_cuadro={"#adf0d1"}
           />
         </Col>
