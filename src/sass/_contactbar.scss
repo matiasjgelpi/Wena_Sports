@@ -2,10 +2,11 @@
     background-color: $colorPrincipalNegro;
     font-family: $font-textos;
     height: 40px;
-    padding-left: 40%;
+    padding-left: 45%;
     padding-top: 4px;
-    padding-right: 13%;
+    padding-right: 15%;
     width: 100%;
+    opacity: 95%;
 
 
 
@@ -13,14 +14,14 @@
     #facebook {
         width: 8.5px;
         height: 15px;
-        margin-right: 8px;
+        // margin-right: ;
         background-image: url(./components/contactbar/facebook.png);
     }
 
     #instagram {
         width: 14.93px;
         height: 14.93px;
-        margin-right: 8px;
+        // margin-right: 8px;
         background-image: url(./components/contactbar/instagram.png);
 
     }
@@ -28,7 +29,7 @@
     #whatsapp {
         width: 15px;
         height: 15.07px;
-        margin-right: 8px;
+        // margin-right: 8px;
         background-image: url(./components/contactbar/whatsapp.png);
 
     }
@@ -36,7 +37,7 @@
     #gmail {
             width: 21px;
             height: 15px;
-            margin-right: 8px;
+            // margin-right: 8px;
             background-image: url(./components/contactbar/gmail.png);
     
         }
@@ -54,9 +55,10 @@
     }
 }
 
-@media only screen and (max-width: 1244px) {
+@media only screen and (max-width: 1400px) {
     #contact-bar {
-        padding-left: 30%;
+        padding-left: 40%;
+        padding-right: 10%;
 
 
     }

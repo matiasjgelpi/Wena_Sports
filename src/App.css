@@ -440,7 +440,7 @@
     left: 80px;
     top: 79px; }
   #navbar .brand {
-    margin-right: 29%;
+    margin-right: 40%;
     display: flex;
     align-items: center; }
   #navbar a {
@@ -483,29 +483,26 @@
   background-color: #222222;
   font-family: poppins-light;
   height: 40px;
-  padding-left: 40%;
+  padding-left: 45%;
   padding-top: 4px;
-  padding-right: 13%;
-  width: 100%; }
+  padding-right: 15%;
+  width: 100%;
+  opacity: 95%; }
   #contact-bar #facebook {
     width: 8.5px;
     height: 15px;
-    margin-right: 8px;
     background-image: url(./components/contactbar/facebook.png); }
   #contact-bar #instagram {
     width: 14.93px;
     height: 14.93px;
-    margin-right: 8px;
     background-image: url(./components/contactbar/instagram.png); }
   #contact-bar #whatsapp {
     width: 15px;
     height: 15.07px;
-    margin-right: 8px;
     background-image: url(./components/contactbar/whatsapp.png); }
   #contact-bar #gmail {
     width: 21px;
     height: 15px;
-    margin-right: 8px;
     background-image: url(./components/contactbar/gmail.png); }
   #contact-bar a {
     color: #f2f2f2;
@@ -516,9 +513,10 @@
     text-align: center;
     text-decoration: none; }
 
-@media only screen and (max-width: 1244px) {
+@media only screen and (max-width: 1400px) {
   #contact-bar {
-    padding-left: 30%; } }
+    padding-left: 40%;
+    padding-right: 10%; } }
 
 @media only screen and (max-width: 1199px) {
   #contact-bar {
@@ -606,7 +604,7 @@
   position: relative;
   margin-left: 18%;
   margin-right: 11%;
-  margin-top: 100px;
+  margin-top: 10%;
   bottom: 310px;
   display: flex;
   justify-content: space-between; }
@@ -654,9 +652,9 @@
       align-items: center;
       opacity: 1; }
   #container-subtitulo #pasion {
-    width: 40%; }
-  #container-subtitulo #compromiso {
     width: 30%; }
+  #container-subtitulo #compromiso {
+    width: 25%; }
 
 @media only screen and (max-width: 1200px) {
   #container-subtitulo .subtitulo p {
@@ -687,9 +685,9 @@
   position: absolute;
   width: 100%;
   margin-bottom: 0px;
-  margin-top: -300px;
+  margin-top: -200px;
   padding: 0;
-  height: 300px;
+  height: 200px;
   background-color: #ff3d2d;
   opacity: 0.4; }
 
@@ -700,7 +698,7 @@
 
 #container-w {
   position: relative;
-  opacity: 0.5; }
+  opacity: 0.8; }
 
 #w {
   width: 882px;
@@ -814,8 +812,8 @@
   padding: 0; }
 
 .home {
-  margin: 11% 0px 0px 0px;
-  padding: 0px 22% 115px 8%;
+  margin: 9% 0px 0px 0px;
+  padding: 5% 22% 115px 8%;
   background-color: #E5E5E5; }
   .home .rectangulo-amarillo {
     width: 28px;
@@ -1024,6 +1022,12 @@
 @media only screen and (max-width: 1200px) {
   .titulo-responsive-nav {
     display: flex; } }
+
+@media only screen and (max-width: 1750px) {
+  #navbar {
+    padding: 0 15% 0 12%; }
+  .brand {
+    margin-right: 35%; } }
 
 @media only screen and (max-width: 1466px) {
   #navbar {
