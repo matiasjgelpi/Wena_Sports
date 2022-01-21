@@ -246,9 +246,8 @@
     width: calc(220px * 9); }
   .nosotros-container .slider .slide {
     width: 220px;
-    margin: 95px 0px; }
-    .nosotros-container .slider .slide img {
-      width: 50%; }
+    margin: 95px 0px;
+    text-align: center; }
 
 .eventos-container {
   display: flex;
